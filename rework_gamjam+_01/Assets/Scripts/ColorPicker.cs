@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ColorPicker : MonoBehaviour
 {
+    [SerializeField] private Inventory inventory;
+    [SerializeField] private GameObject colorPanel;
+    [SerializeField] private Button blueButt, yellowButt, greenButt, redButt, violetButt, orangeButt;
     public void SetColor(string colorName)
     {
         switch(colorName)
@@ -27,6 +31,17 @@ public class ColorPicker : MonoBehaviour
                 Brush.colorState = Brush.ColorState.Orange;
                 break;
         }
+    }
+
+    private void Update() 
+    {
+        colorPanel.SetActive(inventory.hasArtistPack);
+        blueButt.interactable = inventory.hasBlue;
+        yellowButt.interactable = inventory.hasYellow;
+        greenButt.interactable = inventory.hasGreen;
+        redButt.interactable = inventory.hasRed;
+        violetButt.interactable = inventory.hasViolet;
+        orangeButt.interactable = inventory.hasOrange;
     }
 }
  
