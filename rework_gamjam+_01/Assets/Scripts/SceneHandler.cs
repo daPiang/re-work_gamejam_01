@@ -7,6 +7,8 @@ public class SceneHandler: MonoBehaviour
 {
     public static SceneHandler instance;
     [SerializeField] Animator transition;
+    [SerializeField] GameObject pausePanel;
+    public bool isClicked;
     // Update is called once per frame
     void Awake()
     {
@@ -21,7 +23,21 @@ public class SceneHandler: MonoBehaviour
         Debug.Log("Clicked");
         StartCoroutine(LoadLevel());
     }
-
+    public void PausePlay()
+    {
+        if (!isClicked)
+        {
+            Time.timeScale = 0f;
+            pausePanel.SetActive(true);
+            isClicked = true;
+        }
+        else if (isClicked)
+        {
+            Time.timeScale = 1f;
+            pausePanel.SetActive(false);
+            isClicked = false;
+        }
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Player"){

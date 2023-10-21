@@ -58,32 +58,32 @@ public class PlayerMovement : MonoBehaviour
         {
             // Moving left (A key)
             spriteRenderer.flipX = true; // Flip the sprite
-            dustanim.SetTrigger("LeftRight");
+            dustanim.SetInteger("isWalk", 1);
             charanim.SetInteger("isWalking", 3);
         }
         else if (currentDirection.x > 0)
         {
             // Moving right (D key)
             spriteRenderer.flipX = false; // Do not flip the sprite
-            dustanim.SetTrigger("LeftRight");
+            dustanim.SetInteger("isWalk", 1);
             charanim.SetInteger("isWalking", 4);
         }
         else if (currentDirection.y > 0)
         {
             // Moving up (W key)
-            dustanim.SetTrigger("UpDown");
+            dustanim.SetInteger("isWalk", 2);
             charanim.SetInteger("isWalking", 1);
         }
         else if (currentDirection.y < 0)
         {
             // Moving down (S key)
-            dustanim.SetTrigger("UpDown");
+            dustanim.SetInteger("isWalk", 2);
             charanim.SetInteger("isWalking", 2);
         }
         else
         {
             // No movement
-            dustanim.SetTrigger("Default");
+            dustanim.SetInteger("isWalk", 0);
             charanim.SetInteger("isWalking", 0);
         }
     }
