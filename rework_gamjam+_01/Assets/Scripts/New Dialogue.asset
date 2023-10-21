@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - text: wefwef
+    speaker: 0
+  - text: rfweqrfwe
+    speaker: 0
+  speakerName: 
+  speakerImage: {fileID: 0}

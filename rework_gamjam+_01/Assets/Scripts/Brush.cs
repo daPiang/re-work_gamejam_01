@@ -56,8 +56,17 @@ public class Brush : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if((layerMask.value & (1 << other.gameObject.layer)) != 0)
         {
-            Debug.Log("This is a drawable object");
+            // Debug.Log("This is a drawable object");
             canPaint = other.GetComponent<ColorCheck>().ColorMatch();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if((layerMask.value & (1 << other.gameObject.layer)) != 0)
+        {
+            // Debug.Log("This is a drawable object");
+            // canPaint = false;
+            stamp.enabled = false;
         }
     }
 }
