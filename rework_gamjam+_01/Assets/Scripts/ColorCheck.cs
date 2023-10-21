@@ -17,7 +17,7 @@ public class ColorCheck : MonoBehaviour
             Debug.Log("Threshold Reached");
         }
 
-        Debug.Log(ColorMatch());
+        // Debug.Log(ColorMatch());
     }
 
     public bool ColorMatch()
