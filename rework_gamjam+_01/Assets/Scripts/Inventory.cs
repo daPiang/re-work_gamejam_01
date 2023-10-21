@@ -8,5 +8,8 @@ public class Inventory : ScriptableObject
     public bool hasArtistPack;
     public bool hasBlue;
     public bool hasYellow;
+    public bool hasGreen;
     public bool hasRed;
+    public bool hasViolet;
+    public bool hasOrange;
 }
