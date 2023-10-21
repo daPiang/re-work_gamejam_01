@@ -8,36 +8,83 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Tilemap[] movementTilemaps; // Tilemaps the player can move on
     private Vector2 currentDirection = Vector2.zero;
+    [SerializeField] Animator dustanim;
+    [SerializeField] Animator charanim;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    private bool isMoving = false;
+    private float timeSinceLastInput = 0f;
+    private float inputDelay = 0.2f; // Adjust this value to control the input delay.
 
     private void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        Vector2 moveDirection = Vector2.zero;
+        Vector2 moveDirection = new Vector2(horizontalInput, verticalInput).normalized;
+        
+        timeSinceLastInput += Time.deltaTime;
 
-        // Determine the primary movement direction (horizontal or vertical)
-        if (Mathf.Abs(horizontalInput) > Mathf.Abs(verticalInput))
+        if (moveDirection != Vector2.zero && timeSinceLastInput >= inputDelay)
         {
-            moveDirection = new Vector2(horizontalInput, 0).normalized;
+            currentDirection = moveDirection;
+            isMoving = true;
+            UpdateAnimations();
+            timeSinceLastInput = 0f;
+        }
+        else if (moveDirection == Vector2.zero)
+        {
+            currentDirection = Vector2.zero;
+            isMoving = false;
+            UpdateAnimations();
+        }
+
+        if (isMoving)
+        {
+            Vector3 newPosition = transform.position + (Vector3)currentDirection * moveSpeed * Time.deltaTime;
+
+            // Check if the new position is within a valid tilemap with a buffer of -1 tile
+            foreach (Tilemap tilemap in movementTilemaps)
+            {
+                if (IsInsideTilemap(newPosition, tilemap, 1))
+                {
+                    transform.position = newPosition;
+                    break; // Stop checking other tilemaps
+                }
+            }
+        }
+    }
+    private void UpdateAnimations()
+    {
+        if (currentDirection.x < 0)
+        {
+            // Moving left (A key)
+            spriteRenderer.flipX = true; // Flip the sprite
+            dustanim.SetTrigger("LeftRight");
+            charanim.SetInteger("isWalking", 3);
+        }
+        else if (currentDirection.x > 0)
+        {
+            // Moving right (D key)
+            spriteRenderer.flipX = false; // Do not flip the sprite
+            dustanim.SetTrigger("LeftRight");
+            charanim.SetInteger("isWalking", 4);
+        }
+        else if (currentDirection.y > 0)
+        {
+            // Moving up (W key)
+            dustanim.SetTrigger("UpDown");
+            charanim.SetInteger("isWalking", 1);
+        }
+        else if (currentDirection.y < 0)
+        {
+            // Moving down (S key)
+            dustanim.SetTrigger("UpDown");
+            charanim.SetInteger("isWalking", 2);
         }
         else
         {
-            moveDirection = new Vector2(0, verticalInput).normalized;
-        }
-
-        // Update the player's current direction
-        currentDirection = moveDirection;
-
-        Vector3 newPosition = transform.position + (Vector3)currentDirection * moveSpeed * Time.deltaTime;
-
-        // Check if the new position is within a valid tilemap with a buffer of -1 tile
-        foreach (Tilemap tilemap in movementTilemaps)
-        {
-            if (IsInsideTilemap(newPosition, tilemap, 1))
-            {
-                transform.position = newPosition;
-                break; // Stop checking other tilemaps
-            }
+            // No movement
+            dustanim.SetTrigger("Default");
+            charanim.SetInteger("isWalking", 0);
         }
     }
 
