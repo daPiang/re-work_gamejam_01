@@ -14,7 +14,10 @@ public class FrogScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf)
+        {
+            ClickInteraction();
+        }
     }
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -34,6 +37,11 @@ public class FrogScript : MonoBehaviour
     }
     public void ClickInteraction()
     {
-        Debug.Log("Clicked");
+        // Debug.Log("Clicked");
+        if(!DialogueSystem.instance.dialogueStuff.activeSelf)
+        {
+            DialogueSystem.instance.dialogueStuff.SetActive(true);
+        }
+        DialogueSystem.instance.StartDialogue();
     }
 }

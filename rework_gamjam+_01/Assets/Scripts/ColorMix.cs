@@ -6,7 +6,7 @@ public class ColorMix : MonoBehaviour
 {
     [SerializeField] private Inventory inventory;
 
-    public void AddColor(string colorName)
+    public void AddColor(string colorName) //for adding the mixed colors
     {
         switch(colorName)
         {

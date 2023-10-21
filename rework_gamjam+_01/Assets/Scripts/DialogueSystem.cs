@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
+    public static DialogueSystem instance;
+    
+
     [SerializeField] TextMeshProUGUI textComponent;
     [SerializeField] TextMeshProUGUI speakerText;
     [SerializeField] Image playerImage;
     [SerializeField] Image npcImage;
+    public GameObject dialogueStuff;
     [SerializeField] DialogueLine[] dialogueLines;
     public float textSpeed;
     public Vector3 playerImageScale = new Vector3(1.2f, 1.2f, 1.2f);
@@ -17,16 +21,26 @@ public class DialogueSystem : MonoBehaviour
     private Vector3 originalPlayerScale;
     private Vector3 originalNPCScale;
 
+    void Awake()
+    {
+        if(instance==null){
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }else{
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
         textComponent.text = string.Empty;
         speakerText.text = "";
         originalPlayerScale = playerImage.rectTransform.localScale; // Store the original scale of the player image.
         originalNPCScale = npcImage.rectTransform.localScale; // Store the original scale of the NPC image.
-        StartDialogue();
+        // StartDialogue();
     }
 
-    void StartDialogue()
+    public void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine(dialogueLines[index].text));
@@ -81,9 +95,10 @@ public class DialogueSystem : MonoBehaviour
         else
         {
             // Reset the player and NPC images to their original scales.
-            playerImage.gameObject.SetActive(false);
-            npcImage.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+            // playerImage.gameObject.SetActive(false);
+            // npcImage.gameObject.SetActive(false);
+            index = 0;
+            dialogueStuff.SetActive(false);
         }
     }
 

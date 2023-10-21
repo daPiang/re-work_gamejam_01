@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Draw
+  - Frog
+  - Butterfly
+  - Chameleon
+  - Ladybug
+  - Cat
   layers:
   - Default
   - TransparentFX
