@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class FrogScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     public GameObject popPanel;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    [SerializeField] Dialogues dialogues;    
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf)
@@ -37,6 +33,7 @@ public class FrogScript : MonoBehaviour
     }
     public void ClickInteraction()
     {
+        DialogueSystem.instance.dialogues = dialogues;
         // Debug.Log("Clicked");
         if(!DialogueSystem.instance.dialogueStuff.activeSelf)
         {

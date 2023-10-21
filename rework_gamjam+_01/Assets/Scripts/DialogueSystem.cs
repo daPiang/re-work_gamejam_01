@@ -11,10 +11,10 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] TextMeshProUGUI textComponent;
     [SerializeField] TextMeshProUGUI speakerText;
     [SerializeField] Image playerImage;
-    // [SerializeField] Image npcImage;
+    [SerializeField] Image npcImage;
     public GameObject dialogueStuff;
     // [SerializeField] DialogueLine[] dialogueLines;
-    [SerializeField] Dialogues dialogues;
+    public Dialogues dialogues;
     public float textSpeed;
     public Vector3 playerImageScale = new Vector3(1.2f, 1.2f, 1.2f);
     public Vector3 npcImageScale = new Vector3(1.2f, 1.2f, 1.2f);
@@ -34,15 +34,19 @@ public class DialogueSystem : MonoBehaviour
 
     void Start()
     {
-        textComponent.text = string.Empty;
-        speakerText.text = "";
-        originalPlayerScale = playerImage.rectTransform.localScale; // Store the original scale of the player image.
-        originalNPCScale = dialogues.speakerImage.rectTransform.localScale; // Store the original scale of the NPC image.
-        // StartDialogue();
+        if(dialogues != null)
+        {
+            textComponent.text = string.Empty;
+            speakerText.text = "";
+            originalPlayerScale = playerImage.rectTransform.localScale; // Store the original scale of the player image.
+            originalNPCScale = npcImage.rectTransform.localScale; // Store the original scale of the NPC image.
+            // StartDialogue();
+        }
     }
 
     public void StartDialogue()
     {
+        npcImage.sprite = dialogues.speakerImage;
         index = 0;
         StartCoroutine(TypeLine(dialogues.dialogueLines[index].text));
         EmphasizeSpeaker(dialogues.dialogueLines[index].speaker);
@@ -63,17 +67,17 @@ public class DialogueSystem : MonoBehaviour
         if (speaker == SpeakerType.Player)
         {
             playerImage.rectTransform.localScale = playerImageScale;
-            dialogues.speakerImage.rectTransform.localScale = originalNPCScale; // Reset the NPC image scale.
+            npcImage.rectTransform.localScale = originalNPCScale; // Reset the NPC image scale.
         }
         else if (speaker == SpeakerType.NPC)
         {
-            dialogues.speakerImage.rectTransform.localScale = npcImageScale;
+            npcImage.rectTransform.localScale = npcImageScale;
             playerImage.rectTransform.localScale = originalPlayerScale; // Reset the player image scale.
         }
         else
         {
             playerImage.rectTransform.localScale = originalPlayerScale;
-            dialogues.speakerImage.rectTransform.localScale = originalNPCScale;
+            npcImage.rectTransform.localScale = originalNPCScale;
         }
     }
 
@@ -92,6 +96,7 @@ public class DialogueSystem : MonoBehaviour
             StartCoroutine(TypeLine(dialogues.dialogueLines[index].text));
             EmphasizeSpeaker(dialogues.dialogueLines[index].speaker);
             UpdateSpeakerNameUI(dialogues.dialogueLines[index].speaker);
+            // index++;
         }
         else
         {
@@ -105,7 +110,9 @@ public class DialogueSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        // npcImage.sprite = dialogues.speakerImage;
+
+        if (Input.GetMouseButtonDown(0) && dialogues != null)
         {
             if (textComponent.text == dialogues.dialogueLines[index].text)
             {

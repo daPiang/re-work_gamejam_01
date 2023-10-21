@@ -42,6 +42,8 @@ public class ColorPicker : MonoBehaviour
         redButt.interactable = inventory.hasRed;
         violetButt.interactable = inventory.hasViolet;
         orangeButt.interactable = inventory.hasOrange;
+
+        Debug.Log(Brush.colorState);
     }
 }
  

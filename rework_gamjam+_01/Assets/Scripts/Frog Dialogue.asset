@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
   m_Name: Frog Dialogue
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - text: Ikaw ning baki, love?
+    speaker: 0
+  - text: Yes my love.
+    speaker: 1
+  - text: Mah Nigga
+    speaker: 0
+  speakerName: Baki, the Frog
+  speakerImage: {fileID: 21300000, guid: 9bca626ae89b5e2469bf2ebfbc62db41, type: 3}
