@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
 	}
 
 	private void Start() {
-		Play("daybgm");
+		// Play("daybgm");
 	}
 
 	public void Play(string sound)
