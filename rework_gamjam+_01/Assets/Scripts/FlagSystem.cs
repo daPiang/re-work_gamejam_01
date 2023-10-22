@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FlagSystem : MonoBehaviour
 {
@@ -40,6 +41,13 @@ public class FlagSystem : MonoBehaviour
             {
                 flag.completed = state;
             }
+        }
+    }
+
+    private void Update() {
+        if(GetFirstIncompleteFlag().flagName == "END")
+        {
+            SceneManager.LoadScene("Finele");
         }
     }
 }
