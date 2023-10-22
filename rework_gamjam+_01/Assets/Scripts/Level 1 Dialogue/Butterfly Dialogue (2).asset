@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Butterfly Dialogue (2)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: I just helped the frog restore life to his pond. He said something about
+      a darkness creeping through this world and to the creatures around it.
+    speaker: 0
+  - text: "And I noticed it just now\u2026 "
+    speaker: 0
+  - text: "Your light\u2026"
+    speaker: 0
+  - text: It's fading.
+    speaker: 0
+  - text: Ah, kind soul, even the guardians of this island are not immune to the
+      Darkness that has slowly crept its way through the land.
+    speaker: 1
+  - text: The very essence of my being is tied to this lamp post. And I am beginning
+      to fade away.
+    speaker: 1
+  - text: "I\u2019m not letting that happen."
+    speaker: 0
+  - text: Then I have that which you seek, the color of sunlight and warmth.
+    speaker: 1
+  - text: It's within me, intertwined with my essence. I can share it with you to
+      light up the lamp post.
+    speaker: 1

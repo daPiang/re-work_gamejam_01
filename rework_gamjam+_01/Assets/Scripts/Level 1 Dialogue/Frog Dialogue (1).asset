@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Frog Dialogue (1)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "My pond\u2026  "
+    speaker: 1
+  - text: "IT\u2019S ALIVE! "
+    speaker: 1
+  - text: Thank you kind soul!
+    speaker: 1
+  - text: 'I''m glad I could help, Frog. '
+    speaker: 0
+  - text: 'But there''s something more to this, isn''t there? '
+    speaker: 0
+  - text: Why was your pond drying up in the first place?
+    speaker: 0
+  - text: I don't know for sure, but there's a darkness creeping through the island.
+    speaker: 1
+  - text: "It\u2019s slowly eating away at this world. "
+    speaker: 1
+  - text: 'Be careful, kind soul. '
+    speaker: 1
+  - text: The balance of this world is delicate, and I'm afraid there might be others
+      who are in need of dire help.
+    speaker: 1
+  - text: "I\u2019ll do what I can. I will get to the bottom of this."
+    speaker: 0
+  - text: Thank you again, kind soul. I am in your debt.
+    speaker: 1
+  - text: It was my pleasure, Frog. I'm glad I could help.
+    speaker: 0
+  - text: Before you continue your journey, I suggest you go back to the Butterfly,
+      she might also need your help.
+    speaker: 1
