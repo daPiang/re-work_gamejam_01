@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Butterfly Dialogue (2)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: I just helped the Pepe the Frog restore life to the pond. The frog said
-      something about a darkness creeping through this world and to the creatures
+  - text: I just helped the Baki the Frog restore life to the pond. Baki the Frog
+      said something about a darkness creeping through this world and to the creatures
       around it.
     speaker: 0
   - text: "And I noticed it just now\u2026 "
@@ -36,5 +36,6 @@ MonoBehaviour:
   - text: It's within me, intertwined with my essence. I can share it with you to
       light up the lamp post.
     speaker: 1
-  speakerName: 
+  speakerName: Alibang
   speakerImage: {fileID: 0}
+  clearsFlag: 

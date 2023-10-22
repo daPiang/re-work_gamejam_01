@@ -16,5 +16,6 @@ MonoBehaviour:
   - text: There are still others in the next island who need your help kind soul.
       Best get going
     speaker: 1
-  speakerName: 
+  speakerName: Alibang
   speakerImage: {fileID: 0}
+  clearsFlag: 

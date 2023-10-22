@@ -43,7 +43,6 @@ MonoBehaviour:
     speaker: 0
   - text: "Now that\u2019s what I like to hear. Take this and off you go!"
     speaker: 1
-  - text: Alright, it's a deal. I'll use your color to light the campfire.
-    speaker: 0
-  speakerName: 
+  speakerName: Surot
   speakerImage: {fileID: 0}
+  clearsFlag: 

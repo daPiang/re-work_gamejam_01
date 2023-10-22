@@ -16,5 +16,6 @@ MonoBehaviour:
   - text: Don't forget what I taught you kind soul. It will prove useful to your
       journey.
     speaker: 1
-  speakerName: 
+  speakerName: Baki
   speakerImage: {fileID: 0}
+  clearsFlag: 

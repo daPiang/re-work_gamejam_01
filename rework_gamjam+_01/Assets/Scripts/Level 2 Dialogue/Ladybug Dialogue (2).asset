@@ -25,14 +25,15 @@ MonoBehaviour:
   - text: "And for your kindness, I will fill you in on a secret. There\u2019s another
       one like me around here. "
     speaker: 0
-  - text: Yango mostly keeps to himself, but you can try talking to him, maybe that
-      reptile can teach you a thing or two about this Darkness.
+  - text: Yango usually likes to be alone, but you can try talking to the lizard,
+      maybe that reptile can teach you a thing or two about this Darkness.
     speaker: 1
   - text: Thank you, Surot. I appreciate your help. I'll go find Yango and see what
-      he  knows.
+      the lizard  knows.
     speaker: 0
   - text: Good luck darling. Remember, if you ever need my fiery touch again, don't
       hesitate to call upon my color. See ya!
     speaker: 1
-  speakerName: 
+  speakerName: Surot
   speakerImage: {fileID: 0}
+  clearsFlag: 

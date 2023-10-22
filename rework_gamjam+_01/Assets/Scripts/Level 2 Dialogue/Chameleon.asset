@@ -22,5 +22,6 @@ MonoBehaviour:
   - text: It might not stop the Darkness, but it would brighten up this part of the
       world, at least for a moment.
     speaker: 1
-  speakerName: 
+  speakerName: Yango
   speakerImage: {fileID: 0}
+  clearsFlag: 

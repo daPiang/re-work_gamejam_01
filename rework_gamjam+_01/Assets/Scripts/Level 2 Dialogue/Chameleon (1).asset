@@ -48,5 +48,6 @@ MonoBehaviour:
   - text: "The Darkness is taking its toll on me, and shifting colors isn\u2019t
       as easy as it used to be"
     speaker: 1
-  speakerName: 
+  speakerName: Yango
   speakerImage: {fileID: 0}
+  clearsFlag: 

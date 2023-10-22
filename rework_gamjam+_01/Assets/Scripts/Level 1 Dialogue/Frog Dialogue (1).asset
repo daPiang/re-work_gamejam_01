@@ -19,7 +19,7 @@ MonoBehaviour:
     speaker: 1
   - text: Thank you kind soul!
     speaker: 1
-  - text: 'I''m glad I could help, Frog. '
+  - text: 'I''m glad I could help, Baki. '
     speaker: 0
   - text: 'But there''s something more to this, isn''t there? '
     speaker: 0
@@ -38,11 +38,11 @@ MonoBehaviour:
     speaker: 0
   - text: Thank you again, kind soul. I am in your debt.
     speaker: 1
-  - text: It was my pleasure, Frog. I'm glad I could help.
+  - text: It was my pleasure, Baki. I'm glad I could help.
     speaker: 0
   - text: Before you continue your journey, I suggest you go back to the Butterfly,
       the winged guardian might also need your help.
     speaker: 1
-  speakerName: Baki Pepe XVII
+  speakerName: Baki
   speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
   clearsFlag: frog1
