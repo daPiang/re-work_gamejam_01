@@ -16,6 +16,6 @@ MonoBehaviour:
   hasBlue: 1
   hasYellow: 1
   hasGreen: 1
-  hasRed: 0
-  hasViolet: 0
-  hasOrange: 0
+  hasRed: 1
+  hasViolet: 1
+  hasOrange: 1
