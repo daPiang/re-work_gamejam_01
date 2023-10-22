@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
-  m_Name: Chameleon (1)
+  m_Name: Chameleon Dialogue (2)
   m_EditorClassIdentifier: 
   dialogueLines:
   - text: 'Uh, hello there. '
@@ -49,5 +49,5 @@ MonoBehaviour:
       as easy as it used to be"
     speaker: 1
   speakerName: Yango
-  speakerImage: {fileID: 0}
-  clearsFlag: 
+  speakerImage: {fileID: -733388336, guid: 2a02836ed5831e64490927df42a78ec5, type: 3}
+  clearsFlag: chameleon2

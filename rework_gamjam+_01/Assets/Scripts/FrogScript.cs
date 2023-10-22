@@ -11,12 +11,14 @@ public class FrogScript : MonoBehaviour
     [SerializeField] Dialogues defaultDialog; 
     [SerializeField] private Inventory inventory;
     public int currentQuestIndex = 0;
+    bool talking;
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf)
+        if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf && !talking)
         {
             ClickInteraction();
+            talking = true;
         }
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -72,6 +74,7 @@ public class FrogScript : MonoBehaviour
             }
 
             //Increment quest index for this NPC
+            talking = false;
             currentQuestIndex++;
         }
         else
@@ -80,14 +83,6 @@ public class FrogScript : MonoBehaviour
             DialogueSystem.instance.dialogues = defaultDialog;
             DialogueSystem.instance.StartDialogue();
         }
-
-        // for(int i = 0; i < quests.Length - 1; i++)
-        // {
-        //     if(!quests[i].flagRequirement.completed)
-        //     {
-
-        //     }
-        // }
     }
     
     public void GiveItem(string itemName)
