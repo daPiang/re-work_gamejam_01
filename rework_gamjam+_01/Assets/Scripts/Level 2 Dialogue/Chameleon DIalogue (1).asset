@@ -15,9 +15,10 @@ MonoBehaviour:
   dialogueLines:
   - text: "Well done! I didn\u2019t think you could do it so easily."
     speaker: 1
-  - text: 'Now, if you could... there''s a grapevine nearby. It''s my favorite fruit. '
+  - text: 'Now, if you could... there''s a berrybush nearby. Berry''s my favorite
+      fruit. '
     speaker: 1
-  - text: '... and if you could color it, I would truly be grateful. '
+  - text: '... and if you could breathe life to it, I would truly be grateful. '
     speaker: 1
   - text: It might not stop the Darkness, but it would brighten up this part of the
       world, at least for a moment.

@@ -14,13 +14,14 @@ public class PlayerMovement : MonoBehaviour
     private bool isMoving = false;
     private float timeSinceLastInput = 0f;
     private float inputDelay = 0.2f; // Adjust this value to control the input delay.
+    private int bufferTiles = 2; // Adjust this value to control how close to the edge the player can move.
 
     private void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         Vector2 moveDirection = new Vector2(horizontalInput, verticalInput).normalized;
-        
+
         timeSinceLastInput += Time.deltaTime;
 
         if (moveDirection != Vector2.zero && timeSinceLastInput >= inputDelay)
@@ -41,10 +42,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 newPosition = transform.position + (Vector3)currentDirection * moveSpeed * Time.deltaTime;
 
-            // Check if the new position is within a valid tilemap with a buffer of -1 tile
+            // Check if the new position is within a valid tilemap and not in the last two tiles at each end
             foreach (Tilemap tilemap in movementTilemaps)
             {
-                if (IsInsideTilemap(newPosition, tilemap, 1))
+                if (IsInsideTilemap(newPosition, tilemap) && !IsInLastTwoTiles(newPosition, tilemap))
                 {
                     transform.position = newPosition;
                     break; // Stop checking other tilemaps
@@ -52,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
     private void UpdateAnimations()
     {
         if (currentDirection.x < 0)
@@ -88,13 +90,20 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private bool IsInsideTilemap(Vector3 position, Tilemap tilemap, int bufferTiles = 0)
+    private bool IsInsideTilemap(Vector3 position, Tilemap tilemap)
+    {
+        return tilemap.HasTile(tilemap.WorldToCell(position));
+    }
+
+    private bool IsInLastTwoTiles(Vector3 position, Tilemap tilemap)
     {
         Vector3Int cellPosition = tilemap.WorldToCell(position);
         BoundsInt tilemapBounds = tilemap.cellBounds;
-        tilemapBounds.x += bufferTiles;
-        tilemapBounds.y += bufferTiles;
-        tilemapBounds.size = new Vector3Int(tilemapBounds.size.x - 2 * bufferTiles, tilemapBounds.size.y - 2 * bufferTiles, tilemapBounds.size.z);
-        return tilemapBounds.Contains(cellPosition);
+        int lastTileX = tilemapBounds.xMax - 1;
+        int lastTileY = tilemapBounds.yMax - 1;
+        int firstTileX = tilemapBounds.x + bufferTiles;
+        int firstTileY = tilemapBounds.y + bufferTiles;
+        return cellPosition.x >= lastTileX - bufferTiles || cellPosition.y >= lastTileY - bufferTiles ||
+            cellPosition.x < firstTileX || cellPosition.y < firstTileY;
     }
 }
