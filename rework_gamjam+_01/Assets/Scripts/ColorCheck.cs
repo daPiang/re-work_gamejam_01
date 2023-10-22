@@ -10,11 +10,15 @@ public class ColorCheck : MonoBehaviour
     public float threshold;
 
     [SerializeField] private Brush.ColorState colorState;
+    public string clearsFlag;
 
     private void Update() {
         if((float)desprite.AlphaCount/desprite.OriginalAlphaCount <= threshold)
         {
             Debug.Log("Threshold Reached");
+            // desprite.AlphaCount = 0;
+            GetComponent<SpriteRenderer>().enabled = false;
+            FlagSystem.instance.SetFlag(clearsFlag, true);
         }
 
         // Debug.Log(ColorMatch());

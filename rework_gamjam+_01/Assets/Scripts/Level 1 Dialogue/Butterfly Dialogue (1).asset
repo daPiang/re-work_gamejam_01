@@ -46,11 +46,12 @@ MonoBehaviour:
     speaker: 1
   - text: I'll do my best to help. But... who are you?
     speaker: 0
-  - text: I am but a fragment of this island.
+  - text: I am a guardian of this island. A fragment that is weaved into the island
+      itself.
     speaker: 1
   - text: "Now go kind soul, restore the color of this island, and come back to me
       once you\u2019re finished."
     speaker: 1
-  speakerName: Killer Death Jr.
+  speakerName: Alibang
   speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
   clearsFlag: butterfly1

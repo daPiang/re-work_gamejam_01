@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
-  m_Name: Frog (Default)
+  m_Name: Ladybug Dialogue (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: Don't forget what I taught you kind soul. It will prove useful to your
-      journey.
+  - text: Well, well, aren't you something special? I never thought I'd see the day
+      when our island looked this lively.
     speaker: 1
-  speakerName: Baki
+  speakerName: Surot
   speakerImage: {fileID: 0}
   clearsFlag: 

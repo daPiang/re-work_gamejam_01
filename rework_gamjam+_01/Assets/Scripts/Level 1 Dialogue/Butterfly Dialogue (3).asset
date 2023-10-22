@@ -25,9 +25,9 @@ MonoBehaviour:
   - text: 'The frog is wise, and he has answers that can help you restore life to
       this realm. '
     speaker: 1
-  - text: Go seek his guidance and uncover the secrets that lie within the colors
-      of this world.
+  - text: Go seek amphibian's guidance and uncover the secrets that lie within the
+      colors of this world.
     speaker: 1
-  speakerName: Killer Death Jr.
+  speakerName: Alibang
   speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
   clearsFlag: butterfly3

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
-  m_Name: Frog (Default)
+  m_Name: Chameleon Dialogue (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: Don't forget what I taught you kind soul. It will prove useful to your
-      journey.
+  - text: Your talent knows no bounds, friend. I've been silently observing, and
+      I must say, your work is nothing short of magical.
     speaker: 1
-  speakerName: Baki
+  speakerName: Yango
   speakerImage: {fileID: 0}
   clearsFlag: 

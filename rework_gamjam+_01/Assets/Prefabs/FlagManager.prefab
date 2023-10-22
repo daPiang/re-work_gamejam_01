@@ -46,14 +46,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flags:
   - flagName: butterfly1
-    flagState: 2
+    completed: 0
   - flagName: pond1
-    flagState: 2
-  - flagName: butterfly2
-    flagState: 2
+    completed: 0
   - flagName: frog1
-    flagState: 1
+    completed: 0
+  - flagName: butterfly2
+    completed: 0
   - flagName: lamp1
-    flagState: 0
+    completed: 0
+  - flagName: butterfly3
+    completed: 0
   - flagName: frog2
-    flagState: 0
+    completed: 0
+  - flagName: colormix1
+    completed: 0
+  - flagName: frog3
+    completed: 0
