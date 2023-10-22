@@ -15,6 +15,7 @@ public class FrogScript : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(talking);
         if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf && !talking)
         {
             ClickInteraction();
