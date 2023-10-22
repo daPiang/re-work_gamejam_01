@@ -42,6 +42,12 @@ public class SceneHandler: MonoBehaviour
             isClicked = false;
         }
     }
+
+    public void NextScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
+
     IEnumerator LoadLevel()
     {
         // Trigger the "FadeOut" animation
