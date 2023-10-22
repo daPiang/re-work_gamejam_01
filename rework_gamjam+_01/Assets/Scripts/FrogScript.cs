@@ -5,9 +5,11 @@ using UnityEngine;
 public class FrogScript : MonoBehaviour
 {
     public GameObject popPanel;
+    public GameObject mixerPanel;
 
     [SerializeField] Quest[] quests;   
     [SerializeField] Dialogues defaultDialog; 
+    [SerializeField] private Inventory inventory;
     public int currentQuestIndex = 0;
 
     void Update()
@@ -57,6 +59,18 @@ public class FrogScript : MonoBehaviour
                 FlagSystem.instance.SetFlag(flagToClear, true);
             }
 
+            //Check if there's a reward
+            if(quests[currentQuestIndex].hasReward)
+            {
+                GiveItem(quests[currentQuestIndex].reward);
+            }
+
+            //Check if we open mixer
+            if(quests[currentQuestIndex].openMixer)
+            {
+                mixerPanel.SetActive(true);
+            }
+
             //Increment quest index for this NPC
             currentQuestIndex++;
         }
@@ -75,6 +89,25 @@ public class FrogScript : MonoBehaviour
         //     }
         // }
     }
+    
+    public void GiveItem(string itemName)
+    {
+        switch(itemName)
+        {
+            case "bag":
+                inventory.hasArtistPack = true;
+                break;
+            case "bluePaint":
+                inventory.hasBlue = true;
+                break;
+            case "redPaint":
+                inventory.hasRed = true;
+                break;
+            case "yellowPaint":
+                inventory.hasYellow = true;
+                break;
+        }
+    }
 }
 
 [System.Serializable]
@@ -83,4 +116,7 @@ public class Quest
 {
     public Dialogues dialogues;
     public string flagRequirement; //be on this flag to enable certain dialogue
+    public bool hasReward;
+    public string reward;
+    public bool openMixer;
 }

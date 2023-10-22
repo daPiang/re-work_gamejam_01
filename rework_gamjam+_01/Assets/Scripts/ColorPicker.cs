@@ -8,6 +8,9 @@ public class ColorPicker : MonoBehaviour
     [SerializeField] private Inventory inventory;
     [SerializeField] private GameObject colorPanel;
     [SerializeField] private Button blueButt, yellowButt, greenButt, redButt, violetButt, orangeButt;
+
+    public static bool mixerMode = false;
+
     public void SetColor(string colorName)
     {
         switch(colorName)
@@ -43,7 +46,7 @@ public class ColorPicker : MonoBehaviour
         violetButt.interactable = inventory.hasViolet;
         orangeButt.interactable = inventory.hasOrange;
 
-        Debug.Log(Brush.colorState);
+        // Debug.Log(Brush.colorState);
     }
 }
  

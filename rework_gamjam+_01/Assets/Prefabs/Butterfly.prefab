@@ -231,14 +231,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popPanel: {fileID: 3717460193816825286}
+  mixerPanel: {fileID: 0}
   quests:
   - dialogues: {fileID: 11400000, guid: da3819893955cda408fc740b10e54fd4, type: 2}
     flagRequirement: butterfly1
+    hasReward: 0
+    reward: 
+    openMixer: 0
   - dialogues: {fileID: 11400000, guid: 937608fabb3431a4c9aef11be3df3b13, type: 2}
     flagRequirement: butterfly2
+    hasReward: 1
+    reward: yellowPaint
+    openMixer: 0
   - dialogues: {fileID: 11400000, guid: fb8e5f6ef6805b240b7c5e29f9453561, type: 2}
     flagRequirement: butterfly3
+    hasReward: 0
+    reward: 
+    openMixer: 0
+  - dialogues: {fileID: 0}
+    flagRequirement: butterflydone
+    hasReward: 0
+    reward: 
+    openMixer: 0
   defaultDialog: {fileID: 11400000, guid: 9cbf705d1364f9b458805c708cf6f91c, type: 2}
+  inventory: {fileID: 11400000, guid: 113218acf0a88474d82eb44cbe6cf2c2, type: 2}
   currentQuestIndex: 0
 --- !u!1 &3309033170031383160
 GameObject:
@@ -567,7 +583,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_TargetDisplay: 0
 --- !u!114 &8745029064422160692
 MonoBehaviour:
