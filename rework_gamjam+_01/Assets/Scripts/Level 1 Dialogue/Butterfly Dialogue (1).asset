@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Butterfly Dialogue (1)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "You\u2019re finally awake!"
+    speaker: 1
+  - text: W-Where am I? What is this place?
+    speaker: 0
+  - text: You're in a world of dreams and memories kind soul. A place where reality
+      and imagination stand as one...
+    speaker: 1
+  - text: Where the threads of creativity have woven itself for its very existence.
+    speaker: 1
+  - text: It's... it's unlike anything I've ever seen. But why am I here? What am
+      I supposed to do?
+    speaker: 0
+  - text: There are those who seek your help...
+    speaker: 1
+  - text: Look around you; the world you see is both fragile and dying.
+    speaker: 1
+  - text: "Darkness has begun to seep through the tapestry of its very existence.
+      The Frog\u2019s Pond has dried out, the light on the lamp has been snuffed
+      out."
+    speaker: 1
+  - text: I implore you to bring back color to this place. Restore its life.
+    speaker: 1
+  - text: Restore life? How can I do that?
+    speaker: 0
+  - text: 'Kind soul, you already bring with you the power to do so. '
+    speaker: 1
+  - text: 'The blue paint that you carry now, you can use it later to touch the lifeless
+      pond of the frog. '
+    speaker: 1
+  - text: "The more you bring color to this dying world, the more you\u2019ll understand."
+    speaker: 1
+  - text: I'll do my best to help. But... who are you?
+    speaker: 0
+  - text: I am but a fragment of this island.
+    speaker: 1
+  - text: "Now go kind soul, restore the color of this island, and come back to me
+      once you\u2019re finished."
+    speaker: 1
+  speakerName: Killer Death Jr.
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  clearsFlag: butterfly1

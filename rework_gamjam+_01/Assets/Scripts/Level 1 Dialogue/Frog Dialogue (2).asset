@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Frog Dialogue (2)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Ah, you've returned, kind soul. I sense the vibrant energy that surrounds
+      you.
+    speaker: 1
+  - text: "The Butterfly\u2019s light has been rekindled, and I see you have a newfound
+      determination."
+    speaker: 1
+  - text: Yes, with her help of course.  But I came back to understand more about
+      the colors.
+    speaker: 0
+  - text: "I\u2019ve been told that you hold the wisdom that can help me restore
+      color to the land."
+    speaker: 0
+  - text: Indeed, I do. Colors in this world hold a unique power.
+    speaker: 1
+  - text: 'Mixing two colors can create a new shade, a hue that possesses the qualities
+      of both. It''s a fundamental principle of this realm. '
+    speaker: 1
+  - text: I can teach you.
+    speaker: 1
+  - text: 'Us frogs have a saying:'
+    speaker: 1
+  - text: ' "In the pond of creativity, even the tiniest lily pad can become a masterpiece."'
+    speaker: 1
+  - text: It's all about making the best out of what we have now.
+    speaker: 1
+  - text: Observe the color of who you are talking to and immerse yourself in who
+      they are.
+    speaker: 1
+  - text: Only then when you peer deep into what makes them, will you truly learn
+      about the truth of colors.
+    speaker: 1
+  speakerName: Baki Pepe XVII
+  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  clearsFlag: frog2

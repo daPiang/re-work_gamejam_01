@@ -311,7 +311,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4500321766923554674}
         m_TargetAssemblyTypeName: ColorPicker, Assembly-CSharp
         m_MethodName: SetColor
         m_Mode: 5
