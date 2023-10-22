@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1519fb1957fee74c8ac0d643cd28c1a
+guid: be0b56ec04445c5419d0280d40db0ecc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,76 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OtherObjects_0
+      name: FIREFLYS_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 60
-        width: 42
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0374dd735add7248ae92394982daaba
-      internalID: -2001582682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_1
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 42
-        width: 83
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 394323dcd11991f49a6aa02512a0e1a8
-      internalID: 743227502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_2
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 55
-        width: 59
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3de3d08513e09a545bb0113b599ff091
-      internalID: -140436054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_3
-      rect:
-        serializedVersion: 2
-        x: 16
+        x: 12
         y: 5
-        width: 56
-        height: 28
+        width: 21
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d569e51bce66c6468907d0bb99295d6
-      internalID: 1771274841
+      spriteID: a095778e6e9840a48b6944d250a165fa
+      internalID: 319667897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OtherObjects_4
+      name: FIREFLYS_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 8
-        width: 15
-        height: 14
+        x: 50
+        y: 5
+        width: 19
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a841291e32a0014bb2db606a99b508f
-      internalID: 1073221992
+      spriteID: 11a70ff4d90cfc54895d0ea8a903f816
+      internalID: 72149218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OtherObjects_5
+      name: FIREFLYS_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 12
-        width: 91
-        height: 34
+        x: 86
+        y: 4
+        width: 20
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +166,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9abeb8569aa898143aa121be3979a629
-      internalID: -2045316240
+      spriteID: 7367f3dd7c666e043919db399e57b3ab
+      internalID: -1885320918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIREFLYS_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 4
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84149ff514f90554ebfd8af386d32714
+      internalID: 1270755847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIREFLYS_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 5
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ea88e36eeca444fadf3acbdd8d5e8e
+      internalID: 1551582644
       vertices: []
       indices: 
       edges: []
@@ -259,12 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      OtherObjects_0: -2001582682
-      OtherObjects_1: 743227502
-      OtherObjects_2: -140436054
-      OtherObjects_3: 1771274841
-      OtherObjects_4: 1073221992
-      OtherObjects_5: -2045316240
+      FIREFLYS_0: 319667897
+      FIREFLYS_1: 72149218
+      FIREFLYS_2: -1885320918
+      FIREFLYS_3: 1270755847
+      FIREFLYS_4: 1551582644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
