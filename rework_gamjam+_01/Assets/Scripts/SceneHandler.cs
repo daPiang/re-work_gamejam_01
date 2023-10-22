@@ -23,6 +23,10 @@ public class SceneHandler: MonoBehaviour
         Debug.Log("Clicked");
         StartCoroutine(LoadLevel());
     }
+    public void QuitButton()
+    {
+        Application.Quit();
+    }
     public void PausePlay()
     {
         if (!isClicked)
