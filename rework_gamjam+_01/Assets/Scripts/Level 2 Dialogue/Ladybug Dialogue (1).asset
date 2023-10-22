@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Ladybug Dialogue (1)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: 'Well, well, look who we have here! '
+    speaker: 1
+  - text: Another lost soul wandering into our domain.
+    speaker: 1
+  - text: "I hea\u2014"
+    speaker: 0
+  - text: What was that?
+    speaker: 1
+  - text: I heard there were some who needed help here.
+    speaker: 0
+  - text: "But you don\u2019t look like you need help, so I best get going. "
+    speaker: 0
+  - text: 'Wait. Maybe you and I can come up with some sort of deal. '
+    speaker: 1
+  - text: Whaddya say?
+    speaker: 1
+  - text: What kind of deal are you suggesting?
+    speaker: 0
+  - text: "Bugs like me don\u2019t do that well in night-time."
+    speaker: 1
+  - text: And as you can see, the nights are getting longer
+    speaker: 1
+  - text: "It\u2019s simple really, you help me, I help you."
+    speaker: 1
+  - text: I give you my color, you light that campfire,
+    speaker: 1
+  - text: Alright, it's a deal. I'll use your color to light the campfire.
+    speaker: 0
+  - text: "Now that\u2019s what I like to hear. Take this and off you go!"
+    speaker: 1
+  - text: Alright, it's a deal. I'll use your color to light the campfire.
+    speaker: 0
+  speakerName: 
+  speakerImage: {fileID: 0}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Ladybug Dialogue (2)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Ah, that's much better. My color suits the night, don't you think?
+    speaker: 1
+  - text: I must apologize for my brashness earlier. I get really icky at night.
+      And this campfire does help a bit.
+    speaker: 1
+  - text: You were mean, but in these circumstances, I understand.
+    speaker: 0
+  - text: 'Thank you darling. '
+    speaker: 1
+  - text: "And for your kindness, I will fill you in on a secret. There\u2019s another
+      one like me around here. "
+    speaker: 0
+  - text: Yango mostly keeps to himself, but you can try talking to him, maybe that
+      reptile can teach you a thing or two about this Darkness.
+    speaker: 1
+  - text: Thank you, Surot. I appreciate your help. I'll go find Yango and see what
+      he  knows.
+    speaker: 0
+  - text: Good luck darling. Remember, if you ever need my fiery touch again, don't
+      hesitate to call upon my color. See ya!
+    speaker: 1
+  speakerName: 
+  speakerImage: {fileID: 0}

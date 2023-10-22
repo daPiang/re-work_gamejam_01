@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Chameleon (1)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: 'Uh, hello there. '
+    speaker: 1
+  - text: "I... I don't usually talk to strangers. I saw Surot helping you out, but
+      I don\u2019t think I would be of much help."
+    speaker: 1
+  - text: 'I understand, and I appreciate you mustering the courage to talk to me. '
+    speaker: 0
+  - text: I mean no ill-intent, in fact, I want to help you instead.
+    speaker: 0
+  - text: I'm trying to understand the Darkness that's affecting this world.
+    speaker: 0
+  - text: Darkness... yes, it's here.
+    speaker: 1
+  - text: "It creeps, and it spreads, and I\u2019m but a quiet observer."
+    speaker: 1
+  - text: I... I don't confront it directly.
+    speaker: 1
+  - text: Is there anything specific you've noticed about how it behaves?
+    speaker: 0
+  - text: It's... unpredictable.
+    speaker: 1
+  - text: "It takes colors\u2026"
+    speaker: 1
+  - text: "Drains life\u2026"
+    speaker: 1
+  - text: You must know something that can help me stop it?
+    speaker: 0
+  - text: "I don\u2019t know what to tell you, but I could teach you how to make
+      violet as long as you have the needed colors for it. "
+    speaker: 1
+  - text: I can only do this once.
+    speaker: 1
+  - text: "The Darkness is taking its toll on me, and shifting colors isn\u2019t
+      as easy as it used to be"
+    speaker: 1
+  speakerName: 
+  speakerImage: {fileID: 0}

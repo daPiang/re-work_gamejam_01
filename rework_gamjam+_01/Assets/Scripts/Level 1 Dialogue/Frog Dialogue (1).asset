@@ -41,7 +41,7 @@ MonoBehaviour:
   - text: It was my pleasure, Pepe. I'm glad I could help.
     speaker: 0
   - text: Before you continue your journey, I suggest you go back to the Butterfly,
-      she might also need your help.
+      the winged guardian might also need your help.
     speaker: 1
   speakerName: 
   speakerImage: {fileID: 0}

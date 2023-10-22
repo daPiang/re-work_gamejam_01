@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Butterfly Dialogue (2)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: I just helped the Pepe the Frog restore life to his pond. He said something
-      about a darkness creeping through this world and to the creatures around it.
+  - text: I just helped the Pepe the Frog restore life to the pond. The frog said
+      something about a darkness creeping through this world and to the creatures
+      around it.
     speaker: 0
   - text: "And I noticed it just now\u2026 "
     speaker: 0
