@@ -38,15 +38,9 @@ public class SceneHandler: MonoBehaviour
             isClicked = false;
         }
     }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.gameObject.tag == "Player"){
-            NextLevel();
-        }
-    }
     IEnumerator LoadLevel(){
         transition.SetTrigger("FadeOut");
-        yield return new WaitForSeconds(transition.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex+1);
         transition.SetTrigger("FadeIn");
     }
