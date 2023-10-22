@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Ah, you've returned, kind soul. I sense the vibrant energy that surrounds
       you.
     speaker: 1
-  - text: "Alibang\u2019s light has been rekindled, and I see you have a newfound
+  - text: "The Butterfly\u2019s light has been rekindled, and I see you have a newfound
       determination."
     speaker: 1
   - text: Yes, with the guardian's help of course.  But I came back to understand
@@ -44,5 +44,6 @@ MonoBehaviour:
   - text: Only then when you peer deep into what makes them, will you truly learn
       about the truth of colors.
     speaker: 1
-  speakerName: 
-  speakerImage: {fileID: 0}
+  speakerName: Baki Pepe XVII
+  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  clearsFlag: frog2

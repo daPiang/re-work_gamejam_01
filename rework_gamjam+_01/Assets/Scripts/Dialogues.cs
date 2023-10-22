@@ -10,4 +10,5 @@ public class Dialogues : ScriptableObject
     public DialogueLine[] dialogueLines;
     public string speakerName;
     public  Sprite speakerImage;
+    public string clearsFlag; //clears flag after dialogue
 }

@@ -1,0 +1,2388 @@
+fileFormatVersion: 2
+guid: e23c479a0367fe6468cbc3dc68923429
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: First_Asset_pack_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c207fe019d26e4fb1da2297f5199b9
+      internalID: 1078328049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0f09a17a04a994fa4b741315cdba45
+      internalID: -2006782805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec1a54f919add64b945451e97b3579b
+      internalID: -1389673374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd9a44dfd97f7a43b1b76029b72dde2
+      internalID: -2074108313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779019d371d83a14ab367b58ddd18a99
+      internalID: 489214595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149cff6b290a1941a4376414461b734
+      internalID: -1006120776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76da01d7702ee24daf7cdc2a5dbf7dc
+      internalID: 1909608810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb339a0455826743a8762a2fa58b2db
+      internalID: -372858924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950c533645b3714aaee36a0b179b492
+      internalID: -849619242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_190
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 228
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864b83ec3335654daaa5fa472e30219
+      internalID: -980576317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_210
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfce61920db5fb468a6f1091cc377d5
+      internalID: -164744853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_211
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ffd2af4bb7e474f9d4d9e67272c4d0
+      internalID: -1343204560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_212
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57bf322ecdbf924fa7ac8ebfd47c0c7
+      internalID: -1313349000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_213
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2098255ecb2ac54c913bf9ec8c20996
+      internalID: 1713039704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_214
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4e99980a8d9a446b8cea2e6fad8ed0
+      internalID: 1285121381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_215
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 204
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72ec14284b4f0f4990c42f762533d64
+      internalID: 1637430604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_223
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1ab7023a15f6c469fd2ba9ec47eca9
+      internalID: -1130719195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_224
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb0f9b9a7d38c347a2bece27db70fe0
+      internalID: 1737703550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_225
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9504bfcafad271d4b8aaf6ac5abd924b
+      internalID: -1311056848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_226
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81f2c14237c95f419e4f5657f732b91
+      internalID: 1139868289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_227
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c4c68e6f42224c9521175cc959d5e
+      internalID: 440208816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_228
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad1f5750afbd24f9d1e1b6c53b4f68
+      internalID: -231564670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a2b333edb8f84dbb9961497fb2c2f
+      internalID: 1106403489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_237
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acb1f3d4ea5624dbf940f3424ea4c7
+      internalID: -972657527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_238
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253fa3170acd19642ae61fdc9f8be865
+      internalID: -1051816231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_239
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee551a8598276842bd2632578fff75d
+      internalID: 1556761198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_240
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474e51fa866543340ad17d82f889af41
+      internalID: -984987133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_241
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 180
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d949197ae50a40e42a10aaaa0258b863
+      internalID: -1361626203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_264
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716932a3713d9fd438a182dbc49939da
+      internalID: 1825135375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_265
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038597bba65b506488044621f1bd4ca7
+      internalID: 973795853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_266
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a696ffe7674d0c44b1e42a564b1cafa
+      internalID: -152027409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_267
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa525d5f009c8a4387875cefa1705e3
+      internalID: -57258127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_268
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b0427196949704ebeaa7b838fc4eed
+      internalID: -925933676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_269
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca317667003b142bec6dc343189f49
+      internalID: -1601099844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_271
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23de40f71e7140d4cab024e7dc1ea046
+      internalID: 2107403562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_272
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8e06e0d1bc10841b05cbbff89f8dfa
+      internalID: -1771737769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_273
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e970d17b9a184b8c63dc92b4849e2
+      internalID: 2138690789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_288
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c17e4ec9158534dbd8055785a9e576
+      internalID: -451215892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_289
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 143
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71678da90848b194db165142e3e3ffb7
+      internalID: -1147384876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_290
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 143
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c7c00cba7234a488cb9d1c0370e82e
+      internalID: 863106736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_291
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc198345d06f649b40b11600246639
+      internalID: 320150060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_292
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7c323097058874eb61cad69be22e63
+      internalID: -36466832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_293
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761ea856c076c62438719bcff41d19cf
+      internalID: -115525145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_295
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b927bce7f29d0e429ef68251761c368
+      internalID: -300544837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_296
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff876f3473be1243b2d1dfd06f766fd
+      internalID: 317004303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_297
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc58cdd4c2fdf4429e0e9e67dfb3136
+      internalID: -467231299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_312
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b8d1eef4e6eb246887d8c2fd894336
+      internalID: 437499492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_313
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d331eb4908164596a7aa170bb3cae
+      internalID: -712138717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_314
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb2e4ec6192b09428be30e1b67c8051
+      internalID: -757698286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_315
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d90ca6ccb8765f40b48fd9704ea85ef
+      internalID: -163179247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_316
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4ac48a4a0e72340bf10ae7c8fd8afc
+      internalID: 179886911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_317
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ad3947f0dbd345ba9fc13e3fa85fb
+      internalID: -1227414134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_319
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf26562425dc9c7429d718110e23ce07
+      internalID: 658579044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_320
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7199e1044fe88a428395d47a9f7a635
+      internalID: 592393125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_321
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b258b6b978d5f6e4aa586958c6f46171
+      internalID: 1267779414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_504
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a98745321469247b110bd599e48d5e
+      internalID: -1685008292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06faa6987c360478ceb81c86353b12
+      internalID: 249339978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e442257386694b94a44211d3baaeb
+      internalID: 1316922912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0fd8e12cf4a9045b9443fdaaf08739
+      internalID: -1369005819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d49741201c4ae45b28476dd7457bc2
+      internalID: 833395892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b1464527653a488b71f2e09d16ff5
+      internalID: -568221266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879434d3791c93448ad523b2fd66f270
+      internalID: 1495883056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f96a59053e92449cf66c01d88803d
+      internalID: 1903816937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e9d1196980bd40906427a05e55864
+      internalID: 746069956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27865be251152644194d7a8dd487acb0
+      internalID: -159735785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e010c2e0e6b2fd43860bf6b42d836d5
+      internalID: -455658411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cd40cbf7635094089546c3fb0ccc14
+      internalID: 1230309619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0947127d0b5c5454282527bf18f9a714
+      internalID: 850920187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81513fd5c7c415449a1471b70ab4e917
+      internalID: 976462617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3200019a1881cc2469dc2b2604c4b48b
+      internalID: -34401288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2598864c40213ac4fb2bbb81f95a3de9
+      internalID: 360194506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_24
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e7f45591c7a934c886586aea0f63e8
+      internalID: 1824401759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14592fe8afe40446a7d8d6c49f76d9e
+      internalID: 684063069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e4308f753a1f047820a0bed4dec6dd
+      internalID: 1952115972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_27
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf1c886659a308499bf2dbf6748fcfd
+      internalID: -2064176206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e58de32881ef84aba00e81fe33218c
+      internalID: 735860051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c49c680ff07b74bbbca990b2b4072a
+      internalID: 1794126637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd99a7ff80d304448b89c1a158d96f21
+      internalID: -507836558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ffc09e231fe5458c3996bad14fa0e
+      internalID: -1667843036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b37a95e5566af4f994f076227ad522
+      internalID: -1476918950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23c25ddeba48b746a7c60120966f711
+      internalID: 656381017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_34
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f4bb00d1d57574ea3dcef458cecb60
+      internalID: -1833851170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: First_Asset_pack_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11a938117c0a64789e09edcb2acee8
+      internalID: -216222815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      First_Asset_pack_0: 1078328049
+      First_Asset_pack_1: -2006782805
+      First_Asset_pack_10: 1316922912
+      First_Asset_pack_100: 1072374235
+      First_Asset_pack_101: 701976144
+      First_Asset_pack_102: -1089617463
+      First_Asset_pack_103: 318103853
+      First_Asset_pack_104: 1893188587
+      First_Asset_pack_105: 1046538106
+      First_Asset_pack_106: -738791262
+      First_Asset_pack_107: -1832110298
+      First_Asset_pack_108: 2132995965
+      First_Asset_pack_109: -1158532596
+      First_Asset_pack_11: -1369005819
+      First_Asset_pack_110: -1985176235
+      First_Asset_pack_111: 177408382
+      First_Asset_pack_112: -913584908
+      First_Asset_pack_113: 1478656328
+      First_Asset_pack_114: 1418846123
+      First_Asset_pack_115: 1872855639
+      First_Asset_pack_116: -549726922
+      First_Asset_pack_117: 608496995
+      First_Asset_pack_118: 87229153
+      First_Asset_pack_119: -558625259
+      First_Asset_pack_12: 833395892
+      First_Asset_pack_120: 264749833
+      First_Asset_pack_121: 1229710696
+      First_Asset_pack_122: 530234984
+      First_Asset_pack_123: 1462701363
+      First_Asset_pack_124: 1667477153
+      First_Asset_pack_125: 1831967573
+      First_Asset_pack_126: 806773820
+      First_Asset_pack_127: 940622035
+      First_Asset_pack_128: 824082155
+      First_Asset_pack_129: 2040975750
+      First_Asset_pack_13: -568221266
+      First_Asset_pack_130: -1566364245
+      First_Asset_pack_131: 1017782905
+      First_Asset_pack_132: 141970919
+      First_Asset_pack_133: 70221870
+      First_Asset_pack_134: -53051384
+      First_Asset_pack_135: 2107696889
+      First_Asset_pack_136: -688317297
+      First_Asset_pack_137: 1653859955
+      First_Asset_pack_138: -2010984558
+      First_Asset_pack_139: -1596659836
+      First_Asset_pack_14: 1495883056
+      First_Asset_pack_140: 1512724609
+      First_Asset_pack_141: 761188056
+      First_Asset_pack_142: -214514936
+      First_Asset_pack_143: 1954649313
+      First_Asset_pack_144: 311433482
+      First_Asset_pack_145: 942515908
+      First_Asset_pack_146: -1747823780
+      First_Asset_pack_147: -1186809341
+      First_Asset_pack_148: -805135034
+      First_Asset_pack_149: 614853949
+      First_Asset_pack_15: 1903816937
+      First_Asset_pack_150: 948066696
+      First_Asset_pack_151: 1872030689
+      First_Asset_pack_152: 1771882087
+      First_Asset_pack_153: -1243151822
+      First_Asset_pack_154: -2087921946
+      First_Asset_pack_155: 1393819047
+      First_Asset_pack_156: 2082527263
+      First_Asset_pack_157: -541975286
+      First_Asset_pack_158: -683707429
+      First_Asset_pack_159: 1983213276
+      First_Asset_pack_16: 746069956
+      First_Asset_pack_160: 2094040377
+      First_Asset_pack_161: 1787511508
+      First_Asset_pack_162: -1142430663
+      First_Asset_pack_163: 142476540
+      First_Asset_pack_164: -1633053686
+      First_Asset_pack_165: -1020858790
+      First_Asset_pack_166: 26170923
+      First_Asset_pack_167: 806871678
+      First_Asset_pack_168: 303042813
+      First_Asset_pack_169: -2071341163
+      First_Asset_pack_17: -159735785
+      First_Asset_pack_170: 922271549
+      First_Asset_pack_171: 1084628320
+      First_Asset_pack_172: -2023429675
+      First_Asset_pack_173: -654550335
+      First_Asset_pack_174: -648750065
+      First_Asset_pack_175: -261141003
+      First_Asset_pack_176: -1481077351
+      First_Asset_pack_177: 296309249
+      First_Asset_pack_178: 304712591
+      First_Asset_pack_179: -822161473
+      First_Asset_pack_18: -455658411
+      First_Asset_pack_180: -531759768
+      First_Asset_pack_181: -913966427
+      First_Asset_pack_182: 124076930
+      First_Asset_pack_183: 354827154
+      First_Asset_pack_184: 436662164
+      First_Asset_pack_185: 925556994
+      First_Asset_pack_186: -530916391
+      First_Asset_pack_187: -826521172
+      First_Asset_pack_188: -1020866771
+      First_Asset_pack_189: 357349235
+      First_Asset_pack_19: 1230309619
+      First_Asset_pack_190: -980576317
+      First_Asset_pack_191: -1031873645
+      First_Asset_pack_192: 303061927
+      First_Asset_pack_193: -295628431
+      First_Asset_pack_194: 606922636
+      First_Asset_pack_195: -1401486048
+      First_Asset_pack_196: -1338050320
+      First_Asset_pack_197: 1302038665
+      First_Asset_pack_198: -1788643478
+      First_Asset_pack_199: -2020947379
+      First_Asset_pack_2: -1389673374
+      First_Asset_pack_20: 850920187
+      First_Asset_pack_200: -1665715409
+      First_Asset_pack_201: -1869284489
+      First_Asset_pack_202: 2143061435
+      First_Asset_pack_203: 607086429
+      First_Asset_pack_204: -266370121
+      First_Asset_pack_205: 242085125
+      First_Asset_pack_206: 795074309
+      First_Asset_pack_207: 1864622094
+      First_Asset_pack_208: 806048260
+      First_Asset_pack_209: -532681508
+      First_Asset_pack_21: 976462617
+      First_Asset_pack_210: -164744853
+      First_Asset_pack_211: -1343204560
+      First_Asset_pack_212: -1313349000
+      First_Asset_pack_213: 1713039704
+      First_Asset_pack_214: 1285121381
+      First_Asset_pack_215: 1637430604
+      First_Asset_pack_216: -762998283
+      First_Asset_pack_217: 1491451942
+      First_Asset_pack_218: -1247619927
+      First_Asset_pack_219: -1651284909
+      First_Asset_pack_22: -34401288
+      First_Asset_pack_220: -560016950
+      First_Asset_pack_221: -559607541
+      First_Asset_pack_222: 87058173
+      First_Asset_pack_223: -1130719195
+      First_Asset_pack_224: 1737703550
+      First_Asset_pack_225: -1311056848
+      First_Asset_pack_226: 1139868289
+      First_Asset_pack_227: 440208816
+      First_Asset_pack_228: -231564670
+      First_Asset_pack_229: 1932539089
+      First_Asset_pack_23: 360194506
+      First_Asset_pack_230: 1223568800
+      First_Asset_pack_231: -471347427
+      First_Asset_pack_232: 2105234384
+      First_Asset_pack_233: -181114982
+      First_Asset_pack_234: 224068894
+      First_Asset_pack_235: 696396029
+      First_Asset_pack_236: 1106403489
+      First_Asset_pack_237: -972657527
+      First_Asset_pack_238: -1051816231
+      First_Asset_pack_239: 1556761198
+      First_Asset_pack_24: 1824401759
+      First_Asset_pack_240: -984987133
+      First_Asset_pack_241: -1361626203
+      First_Asset_pack_242: 191233786
+      First_Asset_pack_243: -1434240805
+      First_Asset_pack_244: -1379731434
+      First_Asset_pack_245: 1808357224
+      First_Asset_pack_246: 495211212
+      First_Asset_pack_247: -312557937
+      First_Asset_pack_248: -71506325
+      First_Asset_pack_249: -1047572831
+      First_Asset_pack_25: 684063069
+      First_Asset_pack_250: -460712208
+      First_Asset_pack_251: -1363598990
+      First_Asset_pack_252: 1640868811
+      First_Asset_pack_253: 1217663999
+      First_Asset_pack_254: 1087495381
+      First_Asset_pack_255: 59810953
+      First_Asset_pack_256: -517535763
+      First_Asset_pack_257: -77883240
+      First_Asset_pack_258: -857307605
+      First_Asset_pack_259: 1060815648
+      First_Asset_pack_26: 1952115972
+      First_Asset_pack_260: 268180544
+      First_Asset_pack_261: 999984664
+      First_Asset_pack_262: -2060038876
+      First_Asset_pack_263: 1324012866
+      First_Asset_pack_264: 1825135375
+      First_Asset_pack_265: 973795853
+      First_Asset_pack_266: -152027409
+      First_Asset_pack_267: -57258127
+      First_Asset_pack_268: -925933676
+      First_Asset_pack_269: -1601099844
+      First_Asset_pack_27: -2064176206
+      First_Asset_pack_270: 730242464
+      First_Asset_pack_271: 2107403562
+      First_Asset_pack_272: -1771737769
+      First_Asset_pack_273: 2138690789
+      First_Asset_pack_274: -178232183
+      First_Asset_pack_275: -41631335
+      First_Asset_pack_276: -1872395590
+      First_Asset_pack_277: -1937352833
+      First_Asset_pack_278: 1762138245
+      First_Asset_pack_279: 851696853
+      First_Asset_pack_28: 735860051
+      First_Asset_pack_280: -1112532802
+      First_Asset_pack_281: 1096034457
+      First_Asset_pack_282: 609492600
+      First_Asset_pack_283: -579558230
+      First_Asset_pack_284: 1299671738
+      First_Asset_pack_285: 1280110050
+      First_Asset_pack_286: -1710771724
+      First_Asset_pack_287: -1820758843
+      First_Asset_pack_288: -451215892
+      First_Asset_pack_289: -1147384876
+      First_Asset_pack_29: 1794126637
+      First_Asset_pack_290: 863106736
+      First_Asset_pack_291: 320150060
+      First_Asset_pack_292: -36466832
+      First_Asset_pack_293: -115525145
+      First_Asset_pack_294: -269711000
+      First_Asset_pack_295: -300544837
+      First_Asset_pack_296: 317004303
+      First_Asset_pack_297: -467231299
+      First_Asset_pack_298: 2121096800
+      First_Asset_pack_299: -468481678
+      First_Asset_pack_3: -2074108313
+      First_Asset_pack_30: -507836558
+      First_Asset_pack_300: 513280190
+      First_Asset_pack_301: 1412965632
+      First_Asset_pack_302: 1836244761
+      First_Asset_pack_303: -679235571
+      First_Asset_pack_304: -1556383433
+      First_Asset_pack_305: 20203788
+      First_Asset_pack_306: 1826411835
+      First_Asset_pack_307: -665742296
+      First_Asset_pack_308: 980698563
+      First_Asset_pack_309: 1513714621
+      First_Asset_pack_31: -1667843036
+      First_Asset_pack_310: -2036202580
+      First_Asset_pack_311: 918721960
+      First_Asset_pack_312: 437499492
+      First_Asset_pack_313: -712138717
+      First_Asset_pack_314: -757698286
+      First_Asset_pack_315: -163179247
+      First_Asset_pack_316: 179886911
+      First_Asset_pack_317: -1227414134
+      First_Asset_pack_318: 614884267
+      First_Asset_pack_319: 658579044
+      First_Asset_pack_32: -1476918950
+      First_Asset_pack_320: 592393125
+      First_Asset_pack_321: 1267779414
+      First_Asset_pack_322: -254767587
+      First_Asset_pack_323: -1795662391
+      First_Asset_pack_324: -615695100
+      First_Asset_pack_325: 2088548401
+      First_Asset_pack_326: -432303604
+      First_Asset_pack_327: 690187178
+      First_Asset_pack_328: 399876983
+      First_Asset_pack_329: 1581823349
+      First_Asset_pack_33: 656381017
+      First_Asset_pack_330: 46527378
+      First_Asset_pack_331: -645880026
+      First_Asset_pack_332: -1728527185
+      First_Asset_pack_333: -409019863
+      First_Asset_pack_334: 1379750234
+      First_Asset_pack_335: 1887341459
+      First_Asset_pack_336: 87816508
+      First_Asset_pack_337: 1659478066
+      First_Asset_pack_338: 159982654
+      First_Asset_pack_339: -673255587
+      First_Asset_pack_34: -1833851170
+      First_Asset_pack_340: -2028805836
+      First_Asset_pack_341: -507278935
+      First_Asset_pack_342: 1911585029
+      First_Asset_pack_343: -2027337319
+      First_Asset_pack_344: 237228647
+      First_Asset_pack_345: 1362297360
+      First_Asset_pack_346: -355076876
+      First_Asset_pack_347: -1090131142
+      First_Asset_pack_348: -60822987
+      First_Asset_pack_349: -48187526
+      First_Asset_pack_35: -216222815
+      First_Asset_pack_350: 905300162
+      First_Asset_pack_351: 1439497460
+      First_Asset_pack_352: -1014259102
+      First_Asset_pack_353: -1759535913
+      First_Asset_pack_354: 1128532778
+      First_Asset_pack_355: -832355675
+      First_Asset_pack_356: -1446216903
+      First_Asset_pack_357: -2085869726
+      First_Asset_pack_358: -1625387800
+      First_Asset_pack_359: 1183677112
+      First_Asset_pack_36: 534003382
+      First_Asset_pack_360: 1771561477
+      First_Asset_pack_361: -1775593251
+      First_Asset_pack_362: -218777442
+      First_Asset_pack_363: -815943536
+      First_Asset_pack_364: -472254314
+      First_Asset_pack_365: 537912391
+      First_Asset_pack_366: 2051349640
+      First_Asset_pack_367: 1111581327
+      First_Asset_pack_368: 1914423095
+      First_Asset_pack_369: -2040754836
+      First_Asset_pack_37: -411391074
+      First_Asset_pack_370: -1060790182
+      First_Asset_pack_371: -1724394652
+      First_Asset_pack_372: -1316271935
+      First_Asset_pack_373: 1512920481
+      First_Asset_pack_374: -678841124
+      First_Asset_pack_375: 754276917
+      First_Asset_pack_376: -1345782545
+      First_Asset_pack_377: -2125854351
+      First_Asset_pack_378: -425502478
+      First_Asset_pack_379: 953083263
+      First_Asset_pack_38: -1815450722
+      First_Asset_pack_380: -1107701611
+      First_Asset_pack_381: 1803455427
+      First_Asset_pack_382: 2117782370
+      First_Asset_pack_383: -636749945
+      First_Asset_pack_384: -1724578533
+      First_Asset_pack_385: 233288203
+      First_Asset_pack_386: -490592089
+      First_Asset_pack_387: -337713145
+      First_Asset_pack_388: 680503811
+      First_Asset_pack_389: -910239153
+      First_Asset_pack_39: -1949239639
+      First_Asset_pack_390: 87133256
+      First_Asset_pack_391: 458187345
+      First_Asset_pack_392: -1856360882
+      First_Asset_pack_393: -2014220232
+      First_Asset_pack_394: 276622030
+      First_Asset_pack_395: -1056780726
+      First_Asset_pack_396: -848221853
+      First_Asset_pack_397: 954918551
+      First_Asset_pack_398: -1651073089
+      First_Asset_pack_399: -1129007252
+      First_Asset_pack_4: 489214595
+      First_Asset_pack_40: 41349782
+      First_Asset_pack_400: 665010327
+      First_Asset_pack_401: -792784298
+      First_Asset_pack_402: 760850996
+      First_Asset_pack_403: 1392234092
+      First_Asset_pack_404: 1256698183
+      First_Asset_pack_405: 930034149
+      First_Asset_pack_406: -1092643449
+      First_Asset_pack_407: -2078484192
+      First_Asset_pack_408: 1781817076
+      First_Asset_pack_409: -237504026
+      First_Asset_pack_41: 70901784
+      First_Asset_pack_410: 387418572
+      First_Asset_pack_411: -302235364
+      First_Asset_pack_412: 1628812432
+      First_Asset_pack_413: 89186852
+      First_Asset_pack_414: 1793849373
+      First_Asset_pack_415: -1219141633
+      First_Asset_pack_416: -1945498727
+      First_Asset_pack_417: -1774302355
+      First_Asset_pack_418: 1355510816
+      First_Asset_pack_419: 1238786542
+      First_Asset_pack_42: 1141579731
+      First_Asset_pack_420: -311174239
+      First_Asset_pack_421: 1041522498
+      First_Asset_pack_422: 91265927
+      First_Asset_pack_423: -1185585400
+      First_Asset_pack_424: -720433077
+      First_Asset_pack_425: -1634000252
+      First_Asset_pack_426: -53878105
+      First_Asset_pack_427: -2072816076
+      First_Asset_pack_428: 1444146156
+      First_Asset_pack_429: -473547133
+      First_Asset_pack_43: -1711603052
+      First_Asset_pack_430: 1331895079
+      First_Asset_pack_431: -1533811738
+      First_Asset_pack_432: -1906750259
+      First_Asset_pack_433: -1968961196
+      First_Asset_pack_434: -837157221
+      First_Asset_pack_435: 1541324301
+      First_Asset_pack_436: -1984189282
+      First_Asset_pack_437: 561366969
+      First_Asset_pack_438: -1073996521
+      First_Asset_pack_439: -1019128056
+      First_Asset_pack_44: 1997177841
+      First_Asset_pack_440: 449962083
+      First_Asset_pack_441: 1172578171
+      First_Asset_pack_442: 1555916483
+      First_Asset_pack_443: -1428426491
+      First_Asset_pack_444: -651055814
+      First_Asset_pack_445: -2061131884
+      First_Asset_pack_446: -473898864
+      First_Asset_pack_447: 1643704340
+      First_Asset_pack_448: 876606742
+      First_Asset_pack_449: -1260955040
+      First_Asset_pack_45: 1341067495
+      First_Asset_pack_450: 1174446302
+      First_Asset_pack_451: -641230235
+      First_Asset_pack_452: 261611470
+      First_Asset_pack_453: 2033408694
+      First_Asset_pack_454: -930010374
+      First_Asset_pack_455: -511491245
+      First_Asset_pack_456: -2097591542
+      First_Asset_pack_457: -549365250
+      First_Asset_pack_458: -882031873
+      First_Asset_pack_459: -1479842623
+      First_Asset_pack_46: 265131278
+      First_Asset_pack_460: -213437186
+      First_Asset_pack_461: -904290311
+      First_Asset_pack_462: 2078825854
+      First_Asset_pack_463: 130304008
+      First_Asset_pack_464: -214244188
+      First_Asset_pack_465: 1184495176
+      First_Asset_pack_466: -1761014918
+      First_Asset_pack_467: -921687688
+      First_Asset_pack_468: -999232456
+      First_Asset_pack_469: -1389453360
+      First_Asset_pack_47: -441739752
+      First_Asset_pack_470: 695712421
+      First_Asset_pack_471: -413070883
+      First_Asset_pack_472: 1616302405
+      First_Asset_pack_473: -95467798
+      First_Asset_pack_474: -1038821496
+      First_Asset_pack_475: 28832200
+      First_Asset_pack_476: 209222114
+      First_Asset_pack_477: -292560250
+      First_Asset_pack_478: -998259579
+      First_Asset_pack_479: 1396069017
+      First_Asset_pack_48: -1031075131
+      First_Asset_pack_480: -2012378271
+      First_Asset_pack_481: -919899406
+      First_Asset_pack_482: -1836376488
+      First_Asset_pack_483: 1005659582
+      First_Asset_pack_484: -1853761217
+      First_Asset_pack_485: -1063981072
+      First_Asset_pack_486: -840689861
+      First_Asset_pack_487: -1771564366
+      First_Asset_pack_488: 1712332857
+      First_Asset_pack_489: -61388866
+      First_Asset_pack_49: -1372231475
+      First_Asset_pack_490: 1440270404
+      First_Asset_pack_491: 543003469
+      First_Asset_pack_492: 918814020
+      First_Asset_pack_493: 2133450452
+      First_Asset_pack_494: -713262498
+      First_Asset_pack_495: -1423491277
+      First_Asset_pack_496: -1342082275
+      First_Asset_pack_497: -1589661312
+      First_Asset_pack_498: 886633200
+      First_Asset_pack_499: -1274677718
+      First_Asset_pack_5: -1006120776
+      First_Asset_pack_50: 540100146
+      First_Asset_pack_500: -896705558
+      First_Asset_pack_501: 1881598086
+      First_Asset_pack_502: 66230969
+      First_Asset_pack_503: -514184497
+      First_Asset_pack_504: -1685008292
+      First_Asset_pack_51: -1599556638
+      First_Asset_pack_52: 789290220
+      First_Asset_pack_53: 2096467425
+      First_Asset_pack_54: 1284279845
+      First_Asset_pack_55: -2067561160
+      First_Asset_pack_56: 2128816170
+      First_Asset_pack_57: -1108811529
+      First_Asset_pack_58: -957185155
+      First_Asset_pack_59: 1310928068
+      First_Asset_pack_6: 1909608810
+      First_Asset_pack_60: 889649382
+      First_Asset_pack_61: 421330737
+      First_Asset_pack_62: 1275687490
+      First_Asset_pack_63: -1878168370
+      First_Asset_pack_64: -1889245803
+      First_Asset_pack_65: -363405202
+      First_Asset_pack_66: 2125097824
+      First_Asset_pack_67: 1612963695
+      First_Asset_pack_68: 975960266
+      First_Asset_pack_69: 1492993747
+      First_Asset_pack_7: -372858924
+      First_Asset_pack_70: 389560667
+      First_Asset_pack_71: 1932626340
+      First_Asset_pack_72: -1207985459
+      First_Asset_pack_73: 1406911154
+      First_Asset_pack_74: 1755153864
+      First_Asset_pack_75: 1549988896
+      First_Asset_pack_76: -1246779747
+      First_Asset_pack_77: 944639037
+      First_Asset_pack_78: -234226278
+      First_Asset_pack_79: 59967974
+      First_Asset_pack_8: -849619242
+      First_Asset_pack_80: 968299490
+      First_Asset_pack_81: 65570934
+      First_Asset_pack_82: -1246959687
+      First_Asset_pack_83: 673918450
+      First_Asset_pack_84: -1128016895
+      First_Asset_pack_85: 575706725
+      First_Asset_pack_86: 1669491576
+      First_Asset_pack_87: 2145691342
+      First_Asset_pack_88: -1492861028
+      First_Asset_pack_89: 899391599
+      First_Asset_pack_9: 249339978
+      First_Asset_pack_90: -1599591665
+      First_Asset_pack_91: -579178357
+      First_Asset_pack_92: 1755747034
+      First_Asset_pack_93: -2030091951
+      First_Asset_pack_94: 1630164902
+      First_Asset_pack_95: 796639944
+      First_Asset_pack_96: 934053426
+      First_Asset_pack_97: 625586216
+      First_Asset_pack_98: 1584262604
+      First_Asset_pack_99: 591377973
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

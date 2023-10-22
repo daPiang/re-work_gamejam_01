@@ -40,16 +40,17 @@ MonoBehaviour:
   - text: 'Kind soul, you already bring with you the power to do so. '
     speaker: 1
   - text: 'The blue paint that you carry now, you can use it later to touch the lifeless
-      pond of Pepe the frog. '
+      pond of the frog. '
     speaker: 1
   - text: "The more you bring color to this dying world, the more you\u2019ll understand."
     speaker: 1
   - text: I'll do my best to help. But... who are you?
     speaker: 0
-  - text: My name is Alibang, and I am a guardian of this island.
+  - text: I am but a fragment of this island.
     speaker: 1
   - text: "Now go kind soul, restore the color of this island, and come back to me
       once you\u2019re finished."
     speaker: 1
-  speakerName: 
-  speakerImage: {fileID: 0}
+  speakerName: Killer Death Jr.
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  clearsFlag: butterfly1

@@ -46,15 +46,21 @@ public class DialogueSystem : MonoBehaviour
 
     public void StartDialogue()
     {
+        textComponent.text = string.Empty;
+        speakerText.text = "";
+        originalPlayerScale = playerImage.rectTransform.localScale; // Store the original scale of the player image.
+        originalNPCScale = npcImage.rectTransform.localScale; // Store the original scale of the NPC image.
+        index = 0; // Reset the index to start at the beginning of the dialogue.
         npcImage.sprite = dialogues.speakerImage;
-        index = 0;
         StartCoroutine(TypeLine(dialogues.dialogueLines[index].text));
         EmphasizeSpeaker(dialogues.dialogueLines[index].speaker);
         UpdateSpeakerNameUI(dialogues.dialogueLines[index].speaker);
     }
 
+
     IEnumerator TypeLine(string line)
     {
+        textComponent.text = string.Empty; // Clear the text before typing a new line.
         foreach (char c in line.ToCharArray())
         {
             textComponent.text += c;
@@ -62,22 +68,31 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
+
     void EmphasizeSpeaker(SpeakerType speaker)
     {
         if (speaker == SpeakerType.Player)
         {
-            playerImage.rectTransform.localScale = playerImageScale;
-            npcImage.rectTransform.localScale = originalNPCScale; // Reset the NPC image scale.
+            // if(playerImage.rectTransform.localScale.x == originalNPCScale.x)
+            // {
+            //     playerImage.rectTransform.localScale *= 1.2f;
+            // }
+            npcImage.color = Color.gray;
+            playerImage.color = Color.white;
         }
         else if (speaker == SpeakerType.NPC)
         {
-            npcImage.rectTransform.localScale = npcImageScale;
-            playerImage.rectTransform.localScale = originalPlayerScale; // Reset the player image scale.
+            // if(npcImage.rectTransform.localScale.x == originalNPCScale.x)
+            // {
+            //     npcImage.rectTransform.localScale *= 1.2f;
+            // }
+            playerImage.color = Color.gray;
+            npcImage.color = Color.white;
         }
         else
         {
-            playerImage.rectTransform.localScale = originalPlayerScale;
-            npcImage.rectTransform.localScale = originalNPCScale;
+            playerImage.color = Color.gray;
+            npcImage.color = Color.gray;
         }
     }
 
