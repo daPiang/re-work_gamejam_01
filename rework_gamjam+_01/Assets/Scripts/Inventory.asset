@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasArtistPack: 1
   hasBlue: 1
-  hasYellow: 0
-  hasGreen: 0
-  hasRed: 0
+  hasYellow: 1
+  hasGreen: 1
+  hasRed: 1
   hasViolet: 1
-  hasOrange: 0
+  hasOrange: 1
