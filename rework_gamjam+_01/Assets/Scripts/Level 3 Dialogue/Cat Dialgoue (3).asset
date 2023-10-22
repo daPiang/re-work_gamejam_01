@@ -31,5 +31,5 @@ MonoBehaviour:
   - text: My Dear Artist.
     speaker: 1
   speakerName: Iring
-  speakerImage: {fileID: 0}
-  clearsFlag: 
+  speakerImage: {fileID: -824175063, guid: 47746b5a2d7e75f40b2813a9221e7111, type: 3}
+  clearsFlag: cat2
