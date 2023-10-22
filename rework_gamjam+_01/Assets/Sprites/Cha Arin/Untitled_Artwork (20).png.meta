@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1519fb1957fee74c8ac0d643cd28c1a
+guid: 3b22fb0b3ae6a0740b39248fb298b350
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,53 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OtherObjects_0
+      name: Untitled_Artwork (20)_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 60
-        width: 42
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0374dd735add7248ae92394982daaba
-      internalID: -2001582682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_1
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 42
-        width: 83
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 394323dcd11991f49a6aa02512a0e1a8
-      internalID: 743227502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_2
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 55
+        x: 97
+        y: 5
         width: 59
         height: 31
       alignment: 0
@@ -179,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de3d08513e09a545bb0113b599ff091
-      internalID: -140436054
+      spriteID: 8c996fd2243ae6849b2054665e56cc53
+      internalID: 1207843962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OtherObjects_3
+      name: Untitled_Artwork (20)_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 5
-        width: 56
-        height: 28
+        x: 170
+        y: 18
+        width: 32
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,50 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d569e51bce66c6468907d0bb99295d6
-      internalID: 1771274841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_4
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 8
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a841291e32a0014bb2db606a99b508f
-      internalID: 1073221992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OtherObjects_5
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 12
-        width: 91
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9abeb8569aa898143aa121be3979a629
-      internalID: -2045316240
+      spriteID: 2b734443e1fe3394db7c017ef8a1b28a
+      internalID: -1542562710
       vertices: []
       indices: 
       edges: []
@@ -259,12 +162,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      OtherObjects_0: -2001582682
-      OtherObjects_1: 743227502
-      OtherObjects_2: -140436054
-      OtherObjects_3: 1771274841
-      OtherObjects_4: 1073221992
-      OtherObjects_5: -2045316240
+      Untitled_Artwork (20)_0: 1207843962
+      Untitled_Artwork (20)_1: -1542562710
+      Untitled_Artwork (20)_2: 934968186
+      Untitled_Artwork (20)_3: 774981997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
