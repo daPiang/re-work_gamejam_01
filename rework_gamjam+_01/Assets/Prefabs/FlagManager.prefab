@@ -63,3 +63,37 @@ MonoBehaviour:
     completed: 0
   - flagName: frog3
     completed: 0
+  - flagName: ladybug1
+    completed: 0
+  - flagName: campfire1
+    completed: 0
+  - flagName: ladybug2
+    completed: 0
+  - flagName: chameleon1
+    completed: 0
+  - flagName: colormix2
+    completed: 0
+  - flagName: chameleon2
+    completed: 0
+  - flagName: blueberry1
+    completed: 0
+  - flagName: cat1
+    completed: 0
+  - flagName: grass1
+    completed: 0
+  - flagName: grapevine1
+    completed: 0
+  - flagName: wine1
+    completed: 0
+  - flagName: kite1
+    completed: 0
+  - flagName: jar1
+    completed: 0
+  - flagName: cat2
+    completed: 0
+  - flagName: colormix3
+    completed: 0
+  - flagName: sun1
+    completed: 0
+  - flagName: END
+    completed: 0

@@ -414,17 +414,17 @@ MonoBehaviour:
   mixerPanel: {fileID: 8767849938404230754}
   quests:
   - dialogues: {fileID: 11400000, guid: 85d5b5d0c2b957042bffeb9cb6998a89, type: 2}
-    flagRequirement: frog1
+    flagRequirement: cat1
     hasReward: 0
     reward: 
     openMixer: 0
   - dialogues: {fileID: 11400000, guid: bd48627e1011f6c4e90251b6781b997c, type: 2}
-    flagRequirement: frog2
+    flagRequirement: cat2
     hasReward: 0
     reward: 
-    openMixer: 0
-  - dialogues: {fileID: 11400000, guid: 24de67c93ad3fcf42a11e84c1000d8f9, type: 2}
-    flagRequirement: frog3
+    openMixer: 1
+  - dialogues: {fileID: 0}
+    flagRequirement: catdone
     hasReward: 0
     reward: 
     openMixer: 0

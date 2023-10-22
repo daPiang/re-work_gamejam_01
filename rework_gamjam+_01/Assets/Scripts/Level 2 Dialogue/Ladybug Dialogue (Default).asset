@@ -17,5 +17,5 @@ MonoBehaviour:
       when our island looked this lively.
     speaker: 1
   speakerName: Surot
-  speakerImage: {fileID: 0}
+  speakerImage: {fileID: 1940130834, guid: e77f74e790a6fc346aba6f6e95d9f461, type: 3}
   clearsFlag: 

@@ -680,22 +680,22 @@ MonoBehaviour:
   popPanel: {fileID: 6180269420368423899}
   mixerPanel: {fileID: 3384321990567368899}
   quests:
-  - dialogues: {fileID: 11400000, guid: 85d5b5d0c2b957042bffeb9cb6998a89, type: 2}
-    flagRequirement: frog1
+  - dialogues: {fileID: 11400000, guid: 0e92718668cf5ad4da8b357e11807dc2, type: 2}
+    flagRequirement: chameleon1
+    hasReward: 0
+    reward: 
+    openMixer: 1
+  - dialogues: {fileID: 11400000, guid: b7415b3ae836f324f8cee95b0788326e, type: 2}
+    flagRequirement: chameleon2
     hasReward: 0
     reward: 
     openMixer: 0
-  - dialogues: {fileID: 11400000, guid: bd48627e1011f6c4e90251b6781b997c, type: 2}
-    flagRequirement: frog2
+  - dialogues: {fileID: 0}
+    flagRequirement: chameleondone
     hasReward: 0
     reward: 
     openMixer: 0
-  - dialogues: {fileID: 11400000, guid: 24de67c93ad3fcf42a11e84c1000d8f9, type: 2}
-    flagRequirement: frog3
-    hasReward: 0
-    reward: 
-    openMixer: 0
-  defaultDialog: {fileID: 11400000, guid: 72982062b27103f44a47769e45d6e2b4, type: 2}
+  defaultDialog: {fileID: 11400000, guid: d5285c91c2b55224491cb120514100b9, type: 2}
   inventory: {fileID: 11400000, guid: 113218acf0a88474d82eb44cbe6cf2c2, type: 2}
   currentQuestIndex: 0
 --- !u!1001 &1211679615756098762

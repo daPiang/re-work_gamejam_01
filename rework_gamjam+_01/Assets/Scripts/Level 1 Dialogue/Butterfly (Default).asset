@@ -17,5 +17,5 @@ MonoBehaviour:
       Best get going
     speaker: 1
   speakerName: Alibang
-  speakerImage: {fileID: 0}
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
   clearsFlag: 
