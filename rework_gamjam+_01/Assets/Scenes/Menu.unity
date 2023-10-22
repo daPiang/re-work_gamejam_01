@@ -7049,7 +7049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 874990932547676765, guid: fda1486b35c27bf4e9ef7207e3f3be1a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2369365534862523183, guid: fda1486b35c27bf4e9ef7207e3f3be1a, type: 3}
       propertyPath: m_Layer
