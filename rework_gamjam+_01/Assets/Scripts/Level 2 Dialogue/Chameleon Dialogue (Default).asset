@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chameleon Dialogue (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: Your talent knows no bounds, friend. I've been silently observing, and
-      I must say, your work is nothing short of magical.
+  - text: ' Blend in, they said. Be inconspicuous, they said. Easier said than done
+      when you''re a chameleon in a world trying to be filled with colors.'
     speaker: 1
   speakerName: Yango
   speakerImage: {fileID: 1940130834, guid: e77f74e790a6fc346aba6f6e95d9f461, type: 3}
