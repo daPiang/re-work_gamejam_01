@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
-  m_Name: Frog (Default)
+  m_Name: Cat Dialogue (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: There are things in this world that bear keeping an eye on, kind soul.
+  - text: Go on now, this island won't wait.
     speaker: 1
-  speakerName: Baki
-  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  speakerName: Iring
+  speakerImage: {fileID: 0}
   clearsFlag: 

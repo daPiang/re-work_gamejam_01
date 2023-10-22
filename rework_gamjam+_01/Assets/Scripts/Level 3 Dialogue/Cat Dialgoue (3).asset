@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
+  m_Name: Cat Dialgoue (3)
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "You are finally ready\u2026"
+    speaker: 1
+  - text: The canvas of this world, once drained of color and life, now sings with
+      hues that tell stories of hope.
+    speaker: 1
+  - text: 'Every stroke you made, '
+    speaker: 1
+  - text: Every color you chose,
+    speaker: 1
+  - text: They weren't just artistic choices.
+    speaker: 1
+  - text: They were you.
+    speaker: 1
+  - text: "Farewell\u2026"
+    speaker: 1
+  - text: My Dear Artist.
+    speaker: 1
+  speakerName: Iring
+  speakerImage: {fileID: 0}
+  clearsFlag: 
