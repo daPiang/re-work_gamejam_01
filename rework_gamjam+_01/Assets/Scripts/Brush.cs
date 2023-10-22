@@ -44,8 +44,8 @@ public class Brush : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && canPaint)
         {
             stamp.enabled = true;
-            Debug.Log("PAINTING");
-        } else Debug.Log("NOT PAINTING");
+            // Debug.Log("PAINTING");
+        } else {} //Debug.Log("NOT PAINTING");
 
         if(Input.GetMouseButtonUp(0))
         {

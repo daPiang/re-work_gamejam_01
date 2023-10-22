@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Ladybug Dialogue (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: Well, well, aren't you something special? I never thought I'd see the day
-      when our island looked this lively.
+  - text: "Between you and me, I think this island needed a bit of color. But don't
+      let it get to your head \u2013 there's still a lot of work to do before it's
+      as charming as a ladybug's spots!"
     speaker: 1
   speakerName: Surot
   speakerImage: {fileID: 1940130834, guid: e77f74e790a6fc346aba6f6e95d9f461, type: 3}

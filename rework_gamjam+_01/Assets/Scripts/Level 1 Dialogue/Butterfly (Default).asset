@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Butterfly (Default)
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: There are still others in the next island who need your help kind soul.
-      Best get going
+  - text: There are still others who your help, kind soul. Best get going for now.
     speaker: 1
   speakerName: Alibang
   speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
