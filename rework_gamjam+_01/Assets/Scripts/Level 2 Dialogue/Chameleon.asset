@@ -10,11 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55944ceecadaffb4dad6db97f7122e9d, type: 3}
-  m_Name: Frog (Default)
+  m_Name: Chameleon
   m_EditorClassIdentifier: 
   dialogueLines:
-  - text: Don't forget what I taught you kind soul. It will prove useful to your
-      journey.
+  - text: "Well done! I didn\u2019t think you could do it so easily."
+    speaker: 1
+  - text: 'Now, if you could... there''s a grapevine nearby. It''s my favorite fruit. '
+    speaker: 1
+  - text: '... and if you could color it, I would truly be grateful. '
+    speaker: 1
+  - text: It might not stop the Darkness, but it would brighten up this part of the
+      world, at least for a moment.
     speaker: 1
   speakerName: 
   speakerImage: {fileID: 0}
