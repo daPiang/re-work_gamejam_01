@@ -22,9 +22,11 @@ MonoBehaviour:
     speaker: 1
   - text: But for now, I believe, you should go back to the frog.
     speaker: 1
-  - text: 'The frog is wise, and he has answers that can help you restore life to
-      this realm. '
+  - text: 'Pepe is wise, and he has answers that can help you restore life to this
+      realm. '
     speaker: 1
   - text: Go seek his guidance and uncover the secrets that lie within the colors
       of this world.
     speaker: 1
+  speakerName: 
+  speakerImage: {fileID: 0}

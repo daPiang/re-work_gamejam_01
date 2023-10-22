@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Ah, you've returned, kind soul. I sense the vibrant energy that surrounds
       you.
     speaker: 1
-  - text: "The Butterfly\u2019s light has been rekindled, and I see you have a newfound
+  - text: "Alibang\u2019s light has been rekindled, and I see you have a newfound
       determination."
     speaker: 1
   - text: Yes, with her help of course.  But I came back to understand more about
@@ -44,3 +44,5 @@ MonoBehaviour:
   - text: Only then when you peer deep into what makes them, will you truly learn
       about the truth of colors.
     speaker: 1
+  speakerName: 
+  speakerImage: {fileID: 0}

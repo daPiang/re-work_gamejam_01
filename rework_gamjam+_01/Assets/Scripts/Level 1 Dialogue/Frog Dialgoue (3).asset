@@ -18,8 +18,10 @@ MonoBehaviour:
   - text: Your wisdom of blending colors is splendid. And for that, you have earned
       the right to use my color. May it prove useful as you venture onwards!
     speaker: 1
-  - text: "Thank you, Frog. I\u2019ll use this wisdom to help the others who are
+  - text: "Thank you, Pepe. I\u2019ll use this wisdom to help the others who are
       in need. "
     speaker: 0
   - text: I will restore color to this world.
     speaker: 0
+  speakerName: 
+  speakerImage: {fileID: 0}
