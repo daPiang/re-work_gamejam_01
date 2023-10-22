@@ -16,3 +16,6 @@ MonoBehaviour:
   - text: Don't forget what I taught you kind soul. It will prove useful to your
       journey.
     speaker: 1
+  speakerName: Baki Pepe XVII
+  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  clearsFlag: 

@@ -22,5 +22,5 @@ public class NpcEvents : MonoBehaviour
                 inventory.hasYellow = true;
                 break;
         }
-    }
+    } //FUCK I GOTTA SHIT
 }

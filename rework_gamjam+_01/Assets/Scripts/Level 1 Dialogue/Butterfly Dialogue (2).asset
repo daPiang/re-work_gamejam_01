@@ -35,3 +35,6 @@ MonoBehaviour:
   - text: It's within me, intertwined with my essence. I can share it with you to
       light up the lamp post.
     speaker: 1
+  speakerName: Killer Death Jr.
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  clearsFlag: butterfly2

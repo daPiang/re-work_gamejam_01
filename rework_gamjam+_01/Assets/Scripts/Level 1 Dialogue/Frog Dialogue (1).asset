@@ -43,3 +43,6 @@ MonoBehaviour:
   - text: Before you continue your journey, I suggest you go back to the Butterfly,
       she might also need your help.
     speaker: 1
+  speakerName: Baki Pepe XVII
+  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  clearsFlag: frog1

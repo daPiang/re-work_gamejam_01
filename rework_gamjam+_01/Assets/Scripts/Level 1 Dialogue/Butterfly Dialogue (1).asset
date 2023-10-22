@@ -51,3 +51,6 @@ MonoBehaviour:
   - text: "Now go kind soul, restore the color of this island, and come back to me
       once you\u2019re finished."
     speaker: 1
+  speakerName: Killer Death Jr.
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  clearsFlag: butterfly1

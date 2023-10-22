@@ -16,3 +16,6 @@ MonoBehaviour:
   - text: There are still others in the next island who need your help kind soul.
       Best get going
     speaker: 1
+  speakerName: Killer Death Jr.
+  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  clearsFlag: 

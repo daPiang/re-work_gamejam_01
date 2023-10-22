@@ -23,3 +23,6 @@ MonoBehaviour:
     speaker: 0
   - text: I will restore color to this world.
     speaker: 0
+  speakerName: Baki Pepe XVII
+  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  clearsFlag: frog3
