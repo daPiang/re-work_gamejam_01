@@ -38,12 +38,19 @@ public class ColorCheck : MonoBehaviour
 
             if(particles != null)
             {
-                particles.Play();
+                if(!particles.isPlaying)
+                {
+                    particles.Play();
+                }
             }
 
             if(light != null)
             {
-                light.enabled = true;
+                if(!light.enabled)
+                {
+                    light.enabled = true;
+                }
+                
             }
         }
 

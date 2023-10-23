@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4972406659888932429}
   - component: {fileID: 2323730683138627147}
   m_Layer: 0
-  m_Name: LeftColorImage (1)
+  m_Name: Color2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 5788343119433879800}
   - component: {fileID: 3797193829230947480}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: +
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,6 +342,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4478626263874323465}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4143891367387089425
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +366,7 @@ GameObject:
   - component: {fileID: 3627262176275712773}
   - component: {fileID: 1807516443004039845}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: =
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +500,7 @@ GameObject:
   - component: {fileID: 3835839884040292619}
   - component: {fileID: 3558164558822862681}
   m_Layer: 0
-  m_Name: LeftColorImage (2)
+  m_Name: ResultColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +575,7 @@ GameObject:
   - component: {fileID: 130877460237425627}
   - component: {fileID: 8272433160371181873}
   m_Layer: 0
-  m_Name: LeftColorImage
+  m_Name: Color1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

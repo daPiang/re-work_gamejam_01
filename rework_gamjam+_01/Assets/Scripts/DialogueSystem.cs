@@ -73,19 +73,11 @@ public class DialogueSystem : MonoBehaviour
     {
         if (speaker == SpeakerType.Player)
         {
-            // if(playerImage.rectTransform.localScale.x == originalNPCScale.x)
-            // {
-            //     playerImage.rectTransform.localScale *= 1.2f;
-            // }
             npcImage.color = Color.gray;
             playerImage.color = Color.white;
         }
         else if (speaker == SpeakerType.NPC)
         {
-            // if(npcImage.rectTransform.localScale.x == originalNPCScale.x)
-            // {
-            //     npcImage.rectTransform.localScale *= 1.2f;
-            // }
             playerImage.color = Color.gray;
             npcImage.color = Color.white;
         }
@@ -111,13 +103,9 @@ public class DialogueSystem : MonoBehaviour
             StartCoroutine(TypeLine(dialogues.dialogueLines[index].text));
             EmphasizeSpeaker(dialogues.dialogueLines[index].speaker);
             UpdateSpeakerNameUI(dialogues.dialogueLines[index].speaker);
-            // index++;
         }
         else
         {
-            // Reset the player and NPC images to their original scales.
-            // playerImage.gameObject.SetActive(false);
-            // npcImage.gameObject.SetActive(false);
             index = 0;
             dialogueStuff.SetActive(false);
         }
@@ -125,8 +113,6 @@ public class DialogueSystem : MonoBehaviour
 
     void Update()
     {
-        // npcImage.sprite = dialogues.speakerImage;
-
         if (Input.GetMouseButtonDown(0) && dialogues != null)
         {
             if (textComponent.text == dialogues.dialogueLines[index].text)
