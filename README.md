@@ -1,4 +1,4 @@
-# WYSTERIA by Re:Work - Made for GameJam+ by DevelUp
+# WYSTERIA by Re:Work - Made for GameJam+ by DevelUp (Oct 21-22 2023)
 
 Embark on a heartwarming journey through a charming, top-down world in our cozy painting adventure game. Immerse yourself through dreamy, forest landscapes, discover the missing elements waiting to be painted into existence.
 
