@@ -65,7 +65,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Lorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem
+    Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem
+    Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem Ipsum DolorLorem
+    Ipsum Dolor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -92,10 +95,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75.6
-  m_fontSizeBase: 75.6
+  m_fontSize: 51.25
+  m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -128,7 +131,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -710.0742, y: -359.6787, z: -553.11664, w: 64.103874}
+  m_margin: {x: -697.35815, y: -359.6787, z: -545.4867, w: 69.148026}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -301,13 +304,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75.6
+  m_fontSize: 72
   m_fontSizeBase: 75.6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 5
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -337,7 +340,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -705.8503, y: -288.46655, z: -551.8257, w: 240.03941}
+  m_margin: {x: -698.2206, y: -280.9004, z: -531.47974, w: 240.03941}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
