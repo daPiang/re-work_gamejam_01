@@ -7,9 +7,6 @@ public class SceneHandler : MonoBehaviour
 {
     public static SceneHandler instance;
     [SerializeField] Animator transition;
-    [SerializeField] GameObject pausePanel;
-    public bool isClicked;
-
     void Awake()
     {
         if (instance == null)
@@ -32,26 +29,6 @@ public class SceneHandler : MonoBehaviour
     public void ResetPaletteInv()
     {
 
-    }
-    public void QuitButton()
-    {
-        Application.Quit();
-    }
-
-    public void PausePlay()
-    {
-        if (!isClicked)
-        {
-            Time.timeScale = 0f;
-            pausePanel.SetActive(true);
-            isClicked = true;
-        }
-        else if (isClicked)
-        {
-            Time.timeScale = 1f;
-            pausePanel.SetActive(false);
-            isClicked = false;
-        }
     }
 
     IEnumerator LoadScene(string sceneName)
