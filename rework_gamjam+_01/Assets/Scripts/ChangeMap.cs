@@ -7,6 +7,7 @@ public class ChangeMap : MonoBehaviour
 {
     SceneHandler sceneHandler;
     [SerializeField] private string flagToOpen;
+    public string namescene;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class ChangeMap : MonoBehaviour
     {
         if (other.CompareTag("Player") && FlagSystem.instance.GetFirstIncompleteFlag().flagName == flagToOpen)
         {
-            SceneHandler.instance.NextLevel();
+            SceneHandler.instance.LoadSceneByName(namescene);
         }
     }
 }

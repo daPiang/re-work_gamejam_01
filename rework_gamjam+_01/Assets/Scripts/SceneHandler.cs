@@ -29,7 +29,10 @@ public class SceneHandler : MonoBehaviour
         Debug.Log("Clicked");
         StartCoroutine(LoadScene(sceneName));
     }
+    public void ResetPaletteInv()
+    {
 
+    }
     public void QuitButton()
     {
         Application.Quit();
@@ -57,7 +60,7 @@ public class SceneHandler : MonoBehaviour
         transition.SetTrigger("FadeOut");
 
         // Wait for the animation to finish
-        yield return new WaitForSeconds(transition.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+        yield return new WaitForSeconds(1f);
 
         // Load the next scene by name
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
