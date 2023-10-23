@@ -16,7 +16,7 @@ public class FrogScript : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(canInteract);
+        // Debug.Log(canInteract);
         // Debug.Log(talking);
         if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf && canInteract)
         {

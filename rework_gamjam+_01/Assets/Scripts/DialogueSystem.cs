@@ -113,7 +113,7 @@ public class DialogueSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && dialogues != null)
+        if ((Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.F)) && dialogues != null)
         {
             if (textComponent.text == dialogues.dialogueLines[index].text)
             {
