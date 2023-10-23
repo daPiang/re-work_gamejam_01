@@ -50,4 +50,4 @@ MonoBehaviour:
     speaker: 1
   speakerName: Yango
   speakerImage: {fileID: 21300000, guid: 32aaf2e9cbf953f4abf2027862d7b162, type: 3}
-  clearsFlag: chameleon2
+  clearsFlag: chameleon1
