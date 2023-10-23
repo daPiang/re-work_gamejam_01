@@ -131340,7 +131340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8047145154411589008}
   m_Layer: 0
-  m_Name: Drawable
+  m_Name: Drawable_Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
