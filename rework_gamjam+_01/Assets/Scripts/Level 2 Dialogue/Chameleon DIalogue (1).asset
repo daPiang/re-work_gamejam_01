@@ -23,5 +23,5 @@ MonoBehaviour:
       world, at least for a moment.
     speaker: 1
   speakerName: Yango
-  speakerImage: {fileID: -733388336, guid: 2a02836ed5831e64490927df42a78ec5, type: 3}
+  speakerImage: {fileID: 21300000, guid: 32aaf2e9cbf953f4abf2027862d7b162, type: 3}
   clearsFlag: chameleon1

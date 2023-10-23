@@ -12,14 +12,23 @@ public class FrogScript : MonoBehaviour
     [SerializeField] private Inventory inventory;
     public int currentQuestIndex = 0;
 
+    bool canInteract = true; // A flag to control interactions
+
     void Update()
     {
+        Debug.Log(canInteract);
         // Debug.Log(talking);
-        if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf)
+        if(Input.GetKeyDown(KeyCode.F) && popPanel.activeSelf && canInteract)
         {
             ClickInteraction();
         }
+
+        if(!DialogueSystem.instance.dialogueStuff.activeSelf)
+        {
+            if(!canInteract)canInteract = true;
+        }   
     }
+
     private void OnTriggerStay2D(Collider2D other)
     {
         //MouseClick and Keyboard Control
@@ -38,6 +47,13 @@ public class FrogScript : MonoBehaviour
     }
     public void ClickInteraction()
     {
+        if (!canInteract)
+        {
+            return; // If interaction is not allowed, exit the function.
+        }
+
+        canInteract = false; // Disable interaction for a short period
+
         // Debug.Log("Clicked");
         if(!DialogueSystem.instance.dialogueStuff.activeSelf)
         {

@@ -37,5 +37,5 @@ MonoBehaviour:
       light up the lamp post.
     speaker: 1
   speakerName: Alibang
-  speakerImage: {fileID: -577387023, guid: cfe768cc5470710458d8fe653b14ce4e, type: 3}
+  speakerImage: {fileID: 21300000, guid: bc940d07bb5e8734e88ff1f6866a473a, type: 3}
   clearsFlag: butterfly2

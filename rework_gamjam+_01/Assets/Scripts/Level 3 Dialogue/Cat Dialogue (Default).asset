@@ -16,5 +16,5 @@ MonoBehaviour:
   - text: Go on now, this island won't wait.
     speaker: 1
   speakerName: Iring
-  speakerImage: {fileID: 0}
+  speakerImage: {fileID: 21300000, guid: 83f91c031fb7e9b45955a27a88bc5526, type: 3}
   clearsFlag: 

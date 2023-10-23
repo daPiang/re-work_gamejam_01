@@ -18,5 +18,5 @@ MonoBehaviour:
       as charming as a ladybug's spots!"
     speaker: 1
   speakerName: Surot
-  speakerImage: {fileID: 1940130834, guid: e77f74e790a6fc346aba6f6e95d9f461, type: 3}
+  speakerImage: {fileID: 21300000, guid: 660b842fbf0e8b44ea26b1178fd8d362, type: 3}
   clearsFlag: 

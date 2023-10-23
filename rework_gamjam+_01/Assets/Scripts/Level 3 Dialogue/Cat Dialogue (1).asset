@@ -50,5 +50,5 @@ MonoBehaviour:
   - text: Paint.
     speaker: 1
   speakerName: Iring
-  speakerImage: {fileID: -824175063, guid: 47746b5a2d7e75f40b2813a9221e7111, type: 3}
+  speakerImage: {fileID: 21300000, guid: 83f91c031fb7e9b45955a27a88bc5526, type: 3}
   clearsFlag: cat1

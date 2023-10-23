@@ -31,7 +31,7 @@ public class ColorCheck : MonoBehaviour
     private void Update() {
         if((float)desprite.AlphaCount/desprite.OriginalAlphaCount <= threshold)
         {
-            Debug.Log("Threshold Reached");
+            // Debug.Log("Threshold Reached");
             // desprite.AlphaCount = 0;
             GetComponent<SpriteRenderer>().enabled = false;
             FlagSystem.instance.SetFlag(clearsFlag, true);

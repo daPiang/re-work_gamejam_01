@@ -45,5 +45,5 @@ MonoBehaviour:
       about the truth of colors.
     speaker: 1
   speakerName: Baki
-  speakerImage: {fileID: 446351828, guid: e2c61a5b162db464291d1372ac239431, type: 3}
+  speakerImage: {fileID: 21300000, guid: 1c20eb43f491f8a4c96b8fe971d1c8cf, type: 3}
   clearsFlag: frog2
