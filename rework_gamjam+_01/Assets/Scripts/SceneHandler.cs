@@ -3,30 +3,38 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class SceneHandler: MonoBehaviour
+public class SceneHandler : MonoBehaviour
 {
     public static SceneHandler instance;
     [SerializeField] Animator transition;
     [SerializeField] GameObject pausePanel;
     public bool isClicked;
-    // Update is called once per frame
+
     void Awake()
     {
-        if(instance==null){
+        if (instance == null)
+        {
             instance = this;
             DontDestroyOnLoad(gameObject);
-        }else{
+        }
+        else
+        {
             Destroy(gameObject);
         }
     }
-    public void NextLevel(){
+    // Example usage: Load a scene named "MyScene"
+    //SceneHandler.instance.LoadSceneByName("MyScene");
+    public void LoadSceneByName(string sceneName)
+    {
         Debug.Log("Clicked");
-        StartCoroutine(LoadLevel());
+        StartCoroutine(LoadScene(sceneName));
     }
+
     public void QuitButton()
     {
         Application.Quit();
     }
+
     public void PausePlay()
     {
         if (!isClicked)
@@ -43,12 +51,7 @@ public class SceneHandler: MonoBehaviour
         }
     }
 
-    public void NextScene(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
-
-    IEnumerator LoadLevel()
+    IEnumerator LoadScene(string sceneName)
     {
         // Trigger the "FadeOut" animation
         transition.SetTrigger("FadeOut");
@@ -56,34 +59,22 @@ public class SceneHandler: MonoBehaviour
         // Wait for the animation to finish
         yield return new WaitForSeconds(transition.GetCurrentAnimatorClipInfo(0)[0].clip.length);
 
-        // Determine the next scene index
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        // Load the next scene by name
+        AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
 
-        // Check if the next scene index is valid
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        // Wait until the next scene is fully loaded
+        while (!loadOperation.isDone)
         {
-            // Load the next scene additively
-            AsyncOperation loadOperation = SceneManager.LoadSceneAsync(nextSceneIndex, LoadSceneMode.Additive);
-
-            // Wait until the next scene is fully loaded
-            while (!loadOperation.isDone)
-            {
-                yield return null;
-            }
-
-            // Unload the current scene (optional)
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().buildIndex);
-
-            // Set the newly loaded scene as the active scene
-            SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(nextSceneIndex));
-
-            // Trigger the "FadeIn" animation (you might want to add a delay if needed)
-            transition.SetTrigger("FadeIn");
+            yield return null;
         }
-        else
-        {
-            Debug.LogWarning("No more scenes to load.");
-        }
+
+        // Unload the current scene (optional)
+        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+
+        // Set the newly loaded scene as the active scene
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
+
+        // Trigger the "FadeIn" animation (you might want to add a delay if needed)
+        transition.SetTrigger("FadeIn");
     }
-
 }
